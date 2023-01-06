@@ -34,7 +34,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="origin"  />
   <project path="hardware/rockchip/camera" name="android_hardware_rockchip_camera" remote="origin" />
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" />
-  <project path="hardware/hardkernel/odroidThings" name="android_hardware_hardkernel_odroidThings" remote="origin" revision="refs/heads/master" />
+  <project path="hardware/hardkernel/odroidThings" name="android_hardware_hardkernel_odroidThings" remote="origin" sync-s="true" revision="refs/heads/master" />
   <project path="hardware/realtek" name="android_hardware_realtek" remote="origin" />
   <project path="hardware/wifi/realtek/drivers/rtl8821CU" name="android_hardware_wifi_realtek_drivers_rtl8821CU" remote="origin" />
   <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="origin" />
