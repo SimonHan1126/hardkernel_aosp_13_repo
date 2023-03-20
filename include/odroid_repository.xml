@@ -40,6 +40,7 @@
   <project path="hardware/wifi/realtek/drivers/rtl8821CU" name="android_hardware_wifi_realtek_drivers_rtl8821CU" remote="origin" />
   <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="origin" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="origin" groups="pdk-fs" />
+  <project path="vendor/hardkernel/external/can-utils" name="android_vendor_hardkernel_external_can_utils" remote="origin" revision="refs/heads/master" />
   <project path="vendor/hardkernel/external/wiringPi" name="wiringPi" remote="hardkernel" revision="refs/heads/master" />
   <project path="vendor/hardkernel/framework/things" name="android_vendor_hardkernel_things" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="vendor/hardkernel/interfaces" name="android_vendor_hardkernel_interfaces" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
