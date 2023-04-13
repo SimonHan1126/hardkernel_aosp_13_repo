@@ -115,6 +115,7 @@
   <project path="vendor/amlogic/darwin" name="android_vendor_amlogic_darwin" remote="origin" />
   <project path="vendor/widevine" name="android_vendor_widevine" remote="origin" revision="refs/heads/g12_9.0.0_32_master" />
 
+  <project path="vendor/amlogic/common/apps/NativImagePlayer" name="android_vendor_amlogic_apps_NativeImagePlayer" remote="origin" />
   <project path="vendor/amlogic/common/apps/VideoPlayer" name="android_vendor_amlogic_apps_VideoPlayer" remote="origin" revision="refs/heads/g12_9.0.0_32_master" />
   <project path="vendor/amlogic/common/external/dvb" name="android_vendor_amlogic_common_external_dvb" remote="origin" revision="refs/heads/g12_9.0.0_32_master" />
   <project path="vendor/amlogic/common/ir_tools" name="android_vendor_amlogic_common_ir_tools" remote="origin" />
