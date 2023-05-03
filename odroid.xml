@@ -7,17 +7,22 @@
   <remote  name="hardkernel"
            fetch="https://github.com/hardkernel/" />
 
-  <project path="common" name="linux" remote="hardkernel" revision="refs/heads/odroidg12-4.9.y-android" />
-  <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidg12-v2015.01" />
+  <remote  name="working"
+           revision="refs/heads/g12_9.0.0_master_working"
+           fetch="https://github.com/hardkernel/" />
+
+  <project path="bionic" name="android_bionic" groups="pdk" remote="working" />
+  <project path="common" name="linux" remote="hardkernel" revision="refs/heads/odroidg12-4.9.y-android_working" />
+  <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidg12-v2015.01-20210329" />
 
   <project path="device/google/atv" name="android_device_google_atv" group="device,broadcom_pdk,generic_fs,pdk" remote="origin" />
-  <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="origin" revision="refs/heads/g12_9.0.0_64_master" />
-  <project path="device/hardkernel/odroidn2l" name="android_device_hardkernel_odroidn2l" remote="origin" revision="refs/heads/g12_9.0.0_64_master" />
-  <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="origin" revision="refs/heads/g12_9.0.0_64_master" />
-  <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="origin" />
+  <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="working" />
+  <project path="device/hardkernel/odroidn2l" name="android_device_hardkernel_odroidn2l" remote="working" />
+  <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="working" />
+  <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="working" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" />
 
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="origin" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="working" />
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" />
   <project path="hardware/hardkernel/lights" name="android_hardware_hardkernel_lights" remote="origin" />
   <project path="hardware/hardkernel/odroidThings" name="android_hardware_hardkernel_odroidThings" remote="origin" revision="refs/heads/master" />
@@ -34,7 +39,7 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="origin" groups="pdk" />
 
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="origin" />
-  <project path="build/make" name="android_build" groups="pdk" remote="origin" >
+  <project path="build/make" name="android_build" groups="pdk" remote="working" >
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -42,6 +47,10 @@
     <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="working" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <project path="external/afrd" name="android_external_afrd" groups="pdk" remote="origin" />
@@ -53,25 +62,25 @@
   <project path="external/koush/Superuser" name="Superuser" groups="pdk" remote="origin" />
   <project path="external/koush/Widgets" name="Widgets" groups="pdk" remote="origin" />
   <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="origin" />
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="origin" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="origin" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="working" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="working" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="origin" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="origin" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="working" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="origin" />
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" groups="pdk-fs" remote="origin" />
 
-  <project name="android_hardware_amlogic_LibAudio" path="hardware/amlogic/LibAudio" remote="origin" />
-  <project name="android_hardware_amlogic_audio" path="hardware/amlogic/audio" remote="origin" />
+  <project name="android_hardware_amlogic_LibAudio" path="hardware/amlogic/LibAudio" remote="working" />
+  <project name="android_hardware_amlogic_audio" path="hardware/amlogic/audio" remote="working" />
   <project name="android_hardware_amlogic_bluetooth" path="hardware/amlogic/bluetooth" remote="origin" />
   <project name="android_hardware_amlogic_bootctrl" path="hardware/amlogic/bootctrl" remote="origin" />
   <project name="android_hardware_amlogic_camera" path="hardware/amlogic/camera" remote="origin" />
   <project name="android_hardware_amlogic_gatekeeper" path="hardware/amlogic/gatekeeper" remote="origin" />
-  <project name="android_hardware_amlogic_gralloc" path="hardware/amlogic/gralloc" remote="origin" />
+  <project name="android_hardware_amlogic_gralloc" path="hardware/amlogic/gralloc" remote="working" />
   <project name="android_hardware_amlogic_hdmi_cec" path="hardware/amlogic/hdmi_cec" remote="origin" />
-  <project name="android_hardware_amlogic_hwcomposer" path="hardware/amlogic/hwcomposer" remote="origin" />
+  <project name="android_hardware_amlogic_hwcomposer" path="hardware/amlogic/hwcomposer" remote="working" />
   <project name="android_hardware_amlogic_keymaster" path="hardware/amlogic/keymaster" remote="origin" />
-  <project name="android_hardware_amlogic_media" path="hardware/amlogic/media" remote="origin" />
-  <project name="android_hardware_amlogic_media_modules" path="hardware/amlogic/media_modules" remote="origin" />
+  <project name="android_hardware_amlogic_media" path="hardware/amlogic/media" remote="working" />
+  <project name="android_hardware_amlogic_media_modules" path="hardware/amlogic/media_modules" remote="working" />
   <project name="android_hardware_amlogic_memtrack" path="hardware/amlogic/memtrack" remote="origin" />
   <project name="android_hardware_amlogic_power" path="hardware/amlogic/power" remote="origin" />
   <project name="android_hardware_amlogic_screen_source" path="hardware/amlogic/screen_source" remote="origin" />
@@ -84,7 +93,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="origin" />
 
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="origin" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="origin" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="working" />
   <project path="packages/apps/Music" name="android_packages_apps_Music" groups="pdk-fs" remote="origin" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="origin" />
   <project path="packages/apps/TV" name="android_packages_apps_TV" remote="origin" />
@@ -93,10 +102,12 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="origin" />
 
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" groups="pdk-fs" remote="origin" />
-  <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" remote="origin" />
+  <project path="prebuilts/clang-tools" name="android_prebuilts_clang-tools" groups="pdk" clone-depth="1" remote="working" />
+  <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" remote="working" />
+  <project path="vendor/amlogic/common/gpu-lib" name="android_vendor_amlogic_gpu-lib" remote="working" />
 
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="origin" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="origin" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="working" />
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="origin" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="origin" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="origin" />
@@ -108,35 +119,35 @@
   <project path="vendor/widevine" name="android_vendor_widevine" remote="origin" />
 
   <project path="vendor/amlogic/common/apps/NativeImagePlayer" name="android_vendor_amlogic_apps_NativeImagePlayer" remote="origin" />
-  <project path="vendor/amlogic/common/apps/VideoPlayer" name="android_vendor_amlogic_apps_VideoPlayer" remote="origin" />
-  <project path="vendor/amlogic/common/external/dvb" name="android_vendor_amlogic_common_external_dvb" remote="origin" />
+  <project path="vendor/amlogic/common/apps/VideoPlayer" name="android_vendor_amlogic_apps_VideoPlayer" remote="working" />
+  <project path="vendor/amlogic/common/external/dvb" name="android_vendor_amlogic_common_external_dvb" remote="working" />
   <project path="vendor/amlogic/common/ir_tools" name="android_vendor_amlogic_common_ir_tools" remote="origin" />
   <project path="vendor/amlogic/common/external/busybox" name="android_vendor_amlogic_common_external_busybox" remote="origin" />
-  <project path="vendor/amlogic/common/external/ffmpeg" name="android_vendor_amlogic_common_external_ffmpeg" remote="origin" />
+  <project path="vendor/amlogic/common/external/ffmpeg" name="android_vendor_amlogic_common_external_ffmpeg" remote="working" />
   <project path="vendor/amlogic/common/external/libaudioeffect" name="android_vendor_amlogic_common_external_libaudioeffect" remote="origin" />
   <project path="vendor/amlogic/common/external/libzvbi" name="android_vendor_amlogic_common_external_libzvbi" remote="origin" />
   <project path="vendor/amlogic/common/external/ntfs-3g" name="android_vendor_amlogic_common_external_ntfs-3g" remote="origin" />
   <project path="vendor/amlogic/common/external/pppoe" name="android_vendor_amlogic_common_external_pppoe" remote="origin" />
   <project path="vendor/amlogic/common/external/exfat" name="android_vendor_amlogic_common_external_exfat" remote="origin" />
-  <project path="vendor/amlogic/common/external/icu" name="android_vendor_amlogic_common_external_icu" remote="origin" />
-  <project path="vendor/amlogic/common/external/libtiff" name="android_vendor_amlogic_common_external_libtiff" remote="origin" />
+  <project path="vendor/amlogic/common/external/icu" name="android_vendor_amlogic_common_external_icu" remote="working" />
+  <project path="vendor/amlogic/common/external/libtiff" name="android_vendor_amlogic_common_external_libtiff" remote="working" />
   <project path="vendor/amlogic/common/external/recovery" name="android_vendor_amlogic_common_external_recovery" remote="origin" />
-  <project path="vendor/amlogic/common/frameworks" name="android_vendor_amlogic_common_frameworks" remote="origin" />
-  <project path="vendor/amlogic/common/frameworks/av" name="android_vendor_amlogic_common_frameworks_av" remote="origin" />
+  <project path="vendor/amlogic/common/frameworks" name="android_vendor_amlogic_common_frameworks" remote="working" />
+  <project path="vendor/amlogic/common/frameworks/av" name="android_vendor_amlogic_common_frameworks_av" remote="working" />
   <project path="vendor/amlogic/common/frameworks/pppoe" name="android_vendor_amlogic_common_frameworks_pppoe" remote="origin" />
   <project path="vendor/amlogic/common/interfaces" name="android_vendor_amlogic_common_interfaces" remote="origin" />
   <project path="vendor/amlogic/common/hdcp" name="android_vendor_amlogic_common_hdcp" remote="origin" />
-  <project path="vendor/amlogic/common/prebuilt" name="android_vendor_amlogic_common_prebuilt" remote="origin" />
-  <project path="vendor/amlogic/common/prebuilt/libmedia" name="android_vendor_amlogic_common_prebuilt_libmedia" remote="origin" />
-  <project path="vendor/amlogic/common/prebuilt/libmediadrm" name="android_vendor_amlogic_common_prebuilt_libmediadrm" remote="origin" />
-  <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="android_vendor_amlogic_common_prebuilt_libstagefrighthw" remote="origin" />
+  <project path="vendor/amlogic/common/prebuilt" name="android_vendor_amlogic_common_prebuilt" remote="working" />
+  <project path="vendor/amlogic/common/prebuilt/libmedia" name="android_vendor_amlogic_common_prebuilt_libmedia" remote="working" />
+  <project path="vendor/amlogic/common/prebuilt/libmediadrm" name="android_vendor_amlogic_common_prebuilt_libmediadrm" remote="working" />
+  <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="android_vendor_amlogic_common_prebuilt_libstagefrighthw" remote="working" />
   <project path="vendor/amlogic/common/provision" name="android_vendor_amlogic_common_provision" remote="origin" />
   <project path="vendor/amlogic/common/scripts" name="android_vendor_amlogic_common_scripts" remote="origin" />
-  <project path="vendor/amlogic/common/system" name="android_vendor_amlogic_common_system" remote="origin" />
+  <project path="vendor/amlogic/common/system" name="android_vendor_amlogic_common_system" remote="working" />
   <project path="vendor/amlogic/common/system/droidvold" name="android_vendor_amlogic_common_system_droidvold" remote="origin" />
   <project path="vendor/amlogic/common/tdk/linuxdriver" name="android_vendor_amlogic_common_tdk_linuxdriver" remote="origin" />
   <project path="vendor/amlogic/common/tools" name="android_vendor_amlogic_common_tools" remote="origin" />
-  <project path="vendor/amlogic/common/tv/frameworks" name="android_vendor_amlogic_common_tv_frameworks" remote="origin" />
+  <project path="vendor/amlogic/common/tv/frameworks" name="android_vendor_amlogic_common_tv_frameworks" remote="working" />
   <project path="vendor/amlogic/common/tv/tvserver" name="android_vendor_amlogic_common_tv_tvserver" remote="origin" />
   <project path="vendor/hardkernel/framework/things" name="android_vendor_hardkernel_things" remote="origin" revision="refs/heads/master" />
   <project path="vendor/hardkernel/interfaces" name="android_vendor_hardkernel_interfaces" remote="origin" revision="refs/heads/master" />
