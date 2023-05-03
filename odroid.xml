@@ -2,14 +2,14 @@
 <manifest>
   <remote  name="origin"
            revision="refs/heads/g12_9.0.0_master"
-           fetch="https://github.com/codewalkerster/" />
+           fetch=".." />
 
   <remote  name="hardkernel"
-           fetch="https://github.com/hardkernel/" />
+           fetch=".." />
 
   <remote  name="working"
            revision="refs/heads/g12_9.0.0_master_working"
-           fetch="https://github.com/hardkernel/" />
+           fetch=".." />
 
   <project path="bionic" name="android_bionic" groups="pdk" remote="working" />
   <project path="common" name="linux" remote="hardkernel" revision="refs/heads/odroidg12-4.9.y-android_working" />
