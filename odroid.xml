@@ -13,7 +13,7 @@
 
   <project path="bionic" name="android_bionic" groups="pdk" remote="working" />
   <project path="common" name="linux" remote="hardkernel" revision="refs/heads/odroidg12-4.9.y-android_working" />
-  <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidg12-v2015.01-20210329" />
+  <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidg12-v2015.01" />
 
   <project path="device/google/atv" name="android_device_google_atv" group="device,broadcom_pdk,generic_fs,pdk" remote="origin" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="working" />
