@@ -115,6 +115,7 @@
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="origin" />
   <project path="vendor/hardkernel/external/wiringPi" name="wiringPi" remote="hardkernel" revision="refs/heads/master" />
   <project path="vendor/hardkernel/external/can-utils" name="android_vendor_hardkernel_external_can_utils" remote="origin"/>
+  <project path="vendor/hardkernel/external/boblight" name="android_vendor_hardkernel_external_boblight" remote="origin" revision="refs/heads/master" />
   <project path="vendor/amlogic/darwin" name="android_vendor_amlogic_darwin" remote="origin" />
   <project path="vendor/widevine" name="android_vendor_widevine" remote="origin" />
 
