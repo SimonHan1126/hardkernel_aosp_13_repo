@@ -53,21 +53,38 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="cts" name="android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="origin" />
+
+  <project path="external/aac" name="android_external_aac" groups="pdk" remote="origin" />
   <project path="external/afrd" name="android_external_afrd" groups="pdk" remote="origin" />
+  <project path="external/chromium-libpac" name="android_external_chromium-libpac" groups="pdk" remote="origin" />
+  <project path="external/dng_sdk" name="android_external_dng_sdk" groups="pdk" remote="origin" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="origin" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="origin" />
+  <project path="external/ImageMagick" name="android_external_ImageMagick" groups="pdk" remote="origin" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="origin" />
   <project path="external/libyuv" name="android_external_libyuv" groups="pdk" remote="origin" />
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="origin" />
+  <project path="external/libavc" name="android_external_libavc" groups="pdk" remote="origin" />
+  <project path="external/libcups" name="android_external_libcups" groups="pdk-cw-fs,pdk-fs" remote="origin" />
+  <project path="external/libexif" name="android_external_libexif" groups="pdk" remote="origin" />
+  <project path="external/libhevc" name="android_external_libhevc" groups="pdk" remote="origin" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" groups="pdk" remote="origin" />
+  <project path="external/ppp" name="android_external_ppp" groups="pdk" remote="origin" />
+  <project path="external/sonivox" name="android_external_sonivox" groups="pdk" remote="origin" />
+  <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="origin" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="origin" />
   <project path="external/koush/Superuser" name="Superuser" groups="pdk" remote="origin" />
   <project path="external/koush/Widgets" name="Widgets" groups="pdk" remote="origin" />
   <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="origin" />
+  <project path="external/v8" name="android_external_v8" groups="pdk" remote="origin" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="origin_p" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="origin_p" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="origin" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="origin" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="origin_p" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="origin" />
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" groups="pdk-fs" remote="origin" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="origin" />
 
   <project name="android_hardware_amlogic_LibAudio" path="hardware/amlogic/LibAudio" remote="origin_p" />
   <project name="android_hardware_amlogic_audio" path="hardware/amlogic/audio" remote="origin_p" />
@@ -94,13 +111,20 @@
 
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="origin" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="origin_p" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="origin" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="origin" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" groups="pdk-fs" remote="origin" />
   <project path="packages/apps/Music" name="android_packages_apps_Music" groups="pdk-fs" remote="origin" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="origin" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="origin_p" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="origin" />
   <project path="packages/apps/TV" name="android_packages_apps_TV" remote="origin" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="origin" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="origin" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="origin" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="origin" />
+  <project path="packages/providers/TvProvider" name="android_packages_providers_TvProvider" groups="pdk-fs" remote="origin" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="origin" />
 
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" groups="pdk-fs" remote="origin" />
   <project path="prebuilts/clang-tools" name="android_prebuilts_clang-tools" groups="pdk" clone-depth="1" remote="origin_p" />
@@ -111,6 +135,7 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="origin_p" />
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="origin" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="origin" />
+  <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="origin" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="origin" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="origin" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="origin" />
