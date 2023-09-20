@@ -43,6 +43,7 @@
   <project path="vendor/hardkernel/external/can-utils" name="android_vendor_hardkernel_external_can_utils" remote="origin" revision="refs/heads/master" />
   <project path="vendor/hardkernel/external/wiringPi" name="wiringPi" remote="hardkernel" revision="refs/heads/master" />
   <project path="vendor/hardkernel/external/boblight" name="android_vendor_hardkernel_external_boblight" remote="origin" revision="refs/heads/master" />
+  <project path="vendor/hardkernel/external/exfat" name="android_vendor_amlogic_common_external_exfat" remote="origin" />
   <project path="vendor/hardkernel/framework/things" name="android_vendor_hardkernel_things" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="vendor/hardkernel/interfaces" name="android_vendor_hardkernel_interfaces" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="vendor/rockchip/common" name="android_vendor_rockchip_common" remote="origin" />
