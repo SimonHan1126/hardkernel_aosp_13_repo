@@ -27,7 +27,6 @@
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="rk"  />
   <project path="packages/apps/Music" name="android_packages_apps_Music" groups="pdk-fs" remote="rk" />
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="rk" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="rk" />
   <project path="kernel/configs" name="android_kernel_configs" remote="rk"  >
     <linkfile dest="kernel/kernel/configs/android-11.config" src="rockchip/android-11.config"/>
     <linkfile dest="kernel/kernel/configs/android-11-go.config" src="rockchip/android-11-go.config"/>
