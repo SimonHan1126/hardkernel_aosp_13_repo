@@ -67,5 +67,4 @@
   <project path="system/vold" name="android_system_vold" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" groups="pdk" remote="origin" />
   <project path="u-boot/rkbin" name="rk3568_rkbin" remote="hardkernel" revision="refs/heads/odroidm1-v2017.09" />
-  <project path="rkbin" name="rk3568_rkbin" remote="hardkernel" revision="refs/heads/odroidm1-v2017.09" />
 </manifest>
