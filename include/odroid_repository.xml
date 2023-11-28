@@ -29,7 +29,7 @@
   <project path="kernel" name="linux" remote="hardkernel" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="u-boot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidm1-v2017.09" />
   <project path="frameworks/base" name="android_frameworks_base" remote="origin" />
-  <project path="frameworks/minikin" name="andriod_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="origin" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="origin" />
   <project path="frameworks/native" name="android_frameworks_native" remote="origin" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="origin" />
   <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="origin" />
