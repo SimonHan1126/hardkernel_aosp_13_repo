@@ -19,14 +19,6 @@
   <project path="external/io" name="rk/platform/external/io" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
   <project path="external/ntfs-3g" name="rk/platform/external/ntfs-3g" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
   <project path="hardware/realtek" name="platform/hardware/realtek" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk" revision="refs/tags/android-13.0-mid-rkr6.1">
-      <copyfile src=".classpath" dest=".classpath"/>
-      <copyfile src="mkimage.sh" dest="mkimage.sh"/>
-      <copyfile src="javaenv.sh" dest="javaenv.sh"/>
-      <copyfile src="build/rockchip/build.sh" dest="build.sh"/>
-      <copyfile src="mkimage_ab.sh" dest="mkimage_ab.sh"/>
-      <copyfile src="build/rockchip/blank_file" dest="kernel-5.10/.find-ignore"/>
-  </project>
   <!--project path="frameworks/opt/net/pppoe" name="platform/frameworks/opt/net/pppoe" groups="pdk-fs" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/-->
   <!--project path="external/usb_modeswitch" name="rk/platform/external/usb_modeswitch" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/-->
   <project path="external/wifi_driver" name="external/wifi_driver" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>

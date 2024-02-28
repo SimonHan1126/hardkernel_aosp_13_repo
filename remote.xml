@@ -2,6 +2,10 @@
 <manifest>
   <!-- remote repo and gerrit review -->
   <remote name="aosp" fetch="https://android.googlesource.com/" />
+  <remote name="hardkernel" fetch=".." />
+  <remote name="origin"
+          revision="refs/heads/rk35_13.0.0_master"
+          fetch=".." />
   <remote name="rk_aosp" fetch=".." />
   <remote name="rk" fetch=".." />
   <remote name="rk29" fetch=".." />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="origin">
+      <copyfile src=".classpath" dest=".classpath"/>
+      <copyfile src="mkimage.sh" dest="mkimage.sh"/>
+      <copyfile src="javaenv.sh" dest="javaenv.sh"/>
+      <copyfile src="build/rockchip/build.sh" dest="build.sh"/>
+      <copyfile src="mkimage_ab.sh" dest="mkimage_ab.sh"/>
+      <copyfile src="build/rockchip/blank_file" dest="kernel-5.10/.find-ignore"/>
+  </project>
+  <project path="device/hardkernel/rk356x" name="android_device_hardkernel_rk356x" remote="origin" />
+</manifest>

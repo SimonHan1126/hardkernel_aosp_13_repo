@@ -9,12 +9,6 @@
   <include name="remove_t.xml"/>
   <include name="remove_unused.xml"/>
   <include name="include/rk_checkout_repository.xml" />
-
   <include name="include/rk_modules_repository.xml" />
-  <include name="include/rk3588_repository.xml" />
-  <include name="include/rk356x_repository.xml" />
-  <include name="include/rk3562_repository.xml" />
-  <include name="include/rk3326_repository.xml" />
-  <include name="include/rk3528_repository.xml" />
-  <include name="include/rk3399_repository.xml" />
+  <include name="include/odroid_repository.xml" />
 </manifest>
