@@ -4,6 +4,7 @@
     <remove-project name="platform/bionic"/>
     <remove-project name="platform/build"/>
     <remove-project name="platform/build/soong"/>
+    <remove-project name="platform/external/gptfdisk"/>
     <remove-project name="platform/external/libdrm"/>
     <remove-project name="platform/external/speex"/>
     <remove-project name="platform/external/tinyalsa"/>
