@@ -12,9 +12,7 @@
     <project path="build/blueprint" name="platform/build/blueprint" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6" groups="pdk,tradefed" />
     <project name="platform/bionic" path="bionic" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6" groups="pdk"/>
     <project name="platform/frameworks/av" path="frameworks/av" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/frameworks/base" path="frameworks/base" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6" groups="pdk"/>
     <project name="platform/frameworks/ex" path="frameworks/ex" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6"/>
-    <project name="platform/frameworks/native" path="frameworks/native" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6" groups="pdk"/>
     <project name="platform/hardware/interfaces" path="hardware/interfaces" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6" groups="pdk"/>
     <project path="bootable/recovery/pcba_core" name="rk/platform/external/rk-pcba-test" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
     <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6" groups="pdk"/>

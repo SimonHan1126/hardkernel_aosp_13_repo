@@ -20,10 +20,18 @@
   <project path="device/hardkernel/rk356x" name="android_device_hardkernel_rk356x" remote="origin" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="origin" />
+  <project path="external/libubootenv" name="android_external_libubootenv" remote="origin" />
+  <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="origin" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="origin" />
   <project path="kernel-5.10" name="people/tobetter/github/linux" remote="hardkernel" revision="refs/heads/rk35_13.0.0_master" />
+  <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="origin" />
+  <project path="packages/apps/Updater" name="android_packages_apps_odroid_updater" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="system/core" name="android_system_core" remote="origin" />
   <project path="system/vold" name="android_system_vold" remote="origin" />
   <project path="u-boot" name="people/tobetter/github/u-boot" remote="hardkernel" revision="refs/heads/internal/odroidm1-v2017.09" />
   <project path="u-boot/rkbin" name="rk3568_rkbin" remote="hardkernel" revision="refs/heads/next/odroidm1-v2017.09" />
+  <project path="vendor/hardkernel/external/boblight" name="android_vendor_hardkernel_external_boblight" remote="origin" revision="refs/heads/master" />
+  <project path="vendor/hardkernel/external/can-utils" name="android_vendor_hardkernel_external_can_utils" remote="origin" revision="refs/heads/master" />
 </manifest>
