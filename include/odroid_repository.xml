@@ -21,6 +21,7 @@
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="origin" />
   <project path="external/libubootenv" name="android_external_libubootenv" remote="origin" />
+  <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="origin" />
   <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="frameworks/base" name="android_frameworks_base" remote="origin" />
   <project path="frameworks/native" name="android_frameworks_native" remote="origin" />

@@ -6,6 +6,7 @@
     <remove-project name="platform/build/soong"/>
     <remove-project name="platform/external/gptfdisk"/>
     <remove-project name="platform/external/libdrm"/>
+    <remove-project name="platform/external/robolectric-shadows"/>
     <remove-project name="platform/external/speex"/>
     <remove-project name="platform/external/tinyalsa"/>
     <remove-project name="platform/external/skia"/>
