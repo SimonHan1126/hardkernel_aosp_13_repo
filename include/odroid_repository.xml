@@ -17,6 +17,7 @@
       <copyfile src="mkimage_ab.sh" dest="mkimage_ab.sh"/>
       <copyfile src="build/rockchip/blank_file" dest="kernel-5.10/.find-ignore"/>
   </project>
+  <project path="device/hardkernel/rk3588" name="android_device_hardkernel_rk3588" remote="origin" />
   <project path="device/hardkernel/rk356x" name="android_device_hardkernel_rk356x" remote="origin" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" />
   <project path="external/camera_engine_rkaiq" name="android_external_camera_engine_rkaiq" revision="refs/heads/rk35_13.0.0_master" remote="gitlab" />
