@@ -26,6 +26,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="origin" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="origin" />
   <project path="frameworks/native" name="android_frameworks_native" remote="origin" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="origin" groups="pdk"/>
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" />
   <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="origin" />
   <project path="kernel-5.10" name="people/tobetter/github/linux" remote="hardkernel" revision="refs/heads/rk35_13.0.0_master" />
