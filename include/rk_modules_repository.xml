@@ -25,7 +25,6 @@
   <project path="hardware/bes" name="platform/hardware/bes" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
   <project path="hardware/rockchip/hdmicec" name="rk/hardware/rk29/hdmicec" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
   <!--project path="hardware/rockchip/libiep" name="rk/hardware/rk29/libiep" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" /-->
-  <project path="hardware/rockchip/librga" name="linux/linux-rga" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6.1" />
   <!--project path="hardware/rockchip/librga" name="rk/hardware/rk29/librga" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" /-->
   <!--project path="external/abc" name="rk/platform/external/abc" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" /-->
   <!--project path="hardware/rockchip/liblights" name="rk/hardware/rk29/liblights" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/-->
