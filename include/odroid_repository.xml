@@ -27,8 +27,11 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="origin" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="origin" />
   <project path="frameworks/native" name="android_frameworks_native" remote="origin" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="origin" groups="pdk"/>
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" />
+  <project path="hardware/hardkernel/odroidThings" name="android_hardware_hardkernel_odroidThings" remote="origin" revision="refs/heads/master" />
+  <project path="hardware/hardkernel/odroidThings/ring_buffer" name="android_hardware_hardkernel_odroidThings_ring_buffer" remote="origin" revision="refs/heads/master" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="origin" groups="pdk"/>
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="origin" groups="pdk"/>
   <project path="hardware/rockchip/camera" name="android_hardware_rockchip_camera" remote="origin" />
   <project path="hardware/rockchip/librga" name="android_hardware_rockchip_librga" remote="origin" />
   <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="origin" />
@@ -42,4 +45,7 @@
   <project path="u-boot/rkbin" name="rk3568_rkbin" remote="hardkernel" revision="refs/heads/next/odroidm1-v2017.09" />
   <project path="vendor/hardkernel/external/boblight" name="android_vendor_hardkernel_external_boblight" remote="origin" revision="refs/heads/master" />
   <project path="vendor/hardkernel/external/can-utils" name="android_vendor_hardkernel_external_can_utils" remote="origin" revision="refs/heads/master" />
+  <project path="vendor/hardkernel/external/wiringPi" name="wiringPi" remote="hardkernel" revision="refs/heads/master" />
+  <project path="vendor/hardkernel/framework/things" name="android_vendor_hardkernel_things" remote="origin" />
+  <project path="vendor/hardkernel/interfaces" name="android_vendor_hardkernel_interfaces" remote="origin" />
 </manifest>
