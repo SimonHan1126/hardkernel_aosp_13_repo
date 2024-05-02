@@ -38,7 +38,7 @@
   <project path="kernel-5.10" name="people/tobetter/github/linux" remote="hardkernel" revision="refs/heads/rk35_13.0.0_master" />
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="origin" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="origin" />
-  <project path="packages/apps/Updater" name="android_packages_apps_odroid_updater" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
+  <project path="packages/apps/Updater" name="android_packages_apps_odroid_updater" remote="origin" />
   <project path="system/core" name="android_system_core" remote="origin" />
   <project path="system/vold" name="android_system_vold" remote="origin" />
   <project path="u-boot" name="people/tobetter/github/u-boot" remote="hardkernel" revision="refs/heads/internal/odroidm1-v2017.09" />
