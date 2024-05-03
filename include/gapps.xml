@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="vendor/gapps" name="vendor_gapps" remote="gitlab" revision="refs/heads/sigma" clone-depth="1"/>
+</manifest>

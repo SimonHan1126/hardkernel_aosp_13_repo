@@ -9,4 +9,5 @@
   <remote name="rk_aosp" fetch=".." />
   <remote name="rk" fetch=".." />
   <remote name="rk29" fetch=".." />
+  <remote name="gitlab" fetch="https://gitlab.com/MindTheGapps/" />
 </manifest>
