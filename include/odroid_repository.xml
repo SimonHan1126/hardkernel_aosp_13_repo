@@ -39,6 +39,7 @@
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="origin" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="origin" />
   <project path="packages/apps/Updater" name="android_packages_apps_odroid_updater" remote="origin" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="origin" groups="pdk" />
   <project path="system/core" name="android_system_core" remote="origin" />
   <project path="system/vold" name="android_system_vold" remote="origin" />
   <project path="u-boot" name="people/tobetter/github/u-boot" remote="hardkernel" revision="refs/heads/internal/odroidm1-v2017.09" />
