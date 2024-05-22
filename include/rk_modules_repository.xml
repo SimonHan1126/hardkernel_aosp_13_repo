@@ -68,7 +68,6 @@
   <project path="hardware/rockchip/weaver" name="rk/hardware/rk29/weaver" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
   <project path="hardware/rockchip/fastbootd" name="rk/hardware/rk29/fastbootd" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
   <project path="hardware/rockchip/bootctrl" name="rk/hardware/rk29/bootctrl" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/light_aidl" name="rk/hardware/rk29/lights_aidl" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
   <project path="hardware/rockchip/power_aidl" name="rk/hardware/rk29/power_aidl" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
   <project path="hardware/rockchip/hw_output" name="rk/hardware/rk29/hw_output" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
   <project path="hardware/rockchip/tv_input" name="rk/hardware/rk35/tv_input" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
