@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="RKDocs/common" name="docs/common" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="RKDocs/android" name="docs/android" remote="rk" revision="refs/tags/android-13.0-mid-rkr6.1"/>
-  <project path="RKTools" name="RKTools" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/helper" name="rk/hardware/rk35/helper" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/hwcomposer/drmhwc" name="rk/hardware/rk29/hwcomposer_rga" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/hwcomposer/drmhwc2" name="rk/hardware/rk35/hwcomposer2" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/hwcomposer/einkhwc" name="rk/hardware/rk35/einkhwc" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/libgraphicpolicy" name="rk/hardware/rk29/libgraphicpolicy" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/libhwjpeg" name="rk/hardware/rk29/libhwjpeg" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="bootable/recovery/rkupdate" name="platform/bootable/recovery/rk_update" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="bootable/recovery/rkutility" name="platform/bootable/recovery/rk_utility" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="bootable/recovery/mtdutils" name="platform/bootable/recovery/mtd_utils" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="RKDocs/common" name="android_RKDocs_common" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="RKDocs/android" name="android_RKDocs_android" remote="rk" revision="refs/tags/android-13.0-mid-rkr6.1"/>
+  <project path="RKTools" name="android_RKTools" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/helper" name="android_hardware_rockchip_helper" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/hwcomposer/drmhwc" name="android_hardware_rockchip_hwcomposer_drmhwc" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/hwcomposer/drmhwc2" name="android_hardware_rockchip_hwcomposer_drmhwc2" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/hwcomposer/einkhwc" name="android_hardware_rockchip_hwcomposer_einkhwc" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/libgraphicpolicy" name="android_hardware_rockchip_libgraphicpolicy" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/libhwjpeg" name="android_hardware_rockchip_libhwjpeg" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="bootable/recovery/rkupdate" name="android_bootable_recovery_rkupdate" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="bootable/recovery/rkutility" name="android_bootable_recovery_rkutility" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="bootable/recovery/mtdutils" name="android_bootable_recovery_mtdutils" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
   <!-- Q has iperf3 instead <project path="external/iperf" name="platform/external/iperf" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/> -->
   <!--project path="external/rktoolbox" name="rk/rktoolbox" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/-->
-  <project path="external/io" name="rk/platform/external/io" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="external/ntfs-3g" name="rk/platform/external/ntfs-3g" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/realtek" name="platform/hardware/realtek" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="external/io" name="android_external_io" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/realtek" name="android_hardware_realtek" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
   <!--project path="frameworks/opt/net/pppoe" name="platform/frameworks/opt/net/pppoe" groups="pdk-fs" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/-->
   <!--project path="external/usb_modeswitch" name="rk/platform/external/usb_modeswitch" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/-->
-  <project path="external/wifi_driver" name="external/wifi_driver" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/wifi" name="platform/hardware/rockchip/wifi" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/aic" name="platform/hardware/aic" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/bes" name="platform/hardware/bes" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/hdmicec" name="rk/hardware/rk29/hdmicec" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="external/wifi_driver" name="android_external_wifi_driver" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/wifi" name="android_hardware_rockchip_wifi" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/aic" name="android_hardware_aic" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/bes" name="android_hardware_bes" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/hdmicec" name="android_hardware_rockchip_hdmicec" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
   <!--project path="hardware/rockchip/libiep" name="rk/hardware/rk29/libiep" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" /-->
   <!--project path="hardware/rockchip/librga" name="rk/hardware/rk29/librga" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" /-->
   <!--project path="external/abc" name="rk/platform/external/abc" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" /-->
   <!--project path="hardware/rockchip/liblights" name="rk/hardware/rk29/liblights" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/-->
-  <project path="external/rk_tee_user" name="rk/platform/system/rk_tee_user" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="rkst" name="rk/rkst" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="vendor/rockchip/hardware" name="rk/platform/vendor/rockchip/hardware" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="vendor/rockchip/hardware/interfaces/rockit" name="rk/platform/vendor/rockchip/hardware/rockit" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="vendor/rockchip/hardware/interfaces/codec2" name="rk/platform/vendor/rockchip/hardware/codec2" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="vendor/rockchip/hardware/interfaces/rksoundsetting" name="rk/platform/vendor/rockchip/hardware/rksoundsetting" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="vendor/rockchip/hardware/interfaces/outputmanager" name="rk/hardware/rk29/outputmanager" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="vendor/rockchip/hardware/interfaces/neuralnetworks" name="rk/platform/vendor/rockchip/hardware/neuralnetworks" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="vendor/rockchip/hardware/interfaces/tv" name="rk/platform/vendor/rockchip/hardware/tv_input" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="vendor/widevine" name="rk/platform/vendor/Widevine" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/libhardware_rockchip" name="rk/hardware/rk35/libhardware_rockchip" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/drmservice" name="rk/hardware/rk29/drmservice" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/thermal" name="rk/hardware/rk29/thermal" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/libgralloc/midgard" name="rk/hardware/libgralloc/midgard" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/libgralloc/bifrost" name="rk/hardware/libgralloc/bifrost" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/libgralloc/utgard" name="rk/hardware/libgralloc/utgard_new" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/optee" name="rk/hardware/rk29/optee" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/keymaster4" name="rk/hardware/rk29/keymaster4" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/gatekeeper" name="rk/hardware/rk29/gatekeeper" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/udc_set" name="rk/hardware/rk35/udc_set" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/usb" name="rk/hardware/rk35/usb" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/vibrator_aidl" name="rk/hardware/rk35/vibrator_aidl" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project name="platform/system/tools/release_tools" path="system/tools/release_tools" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" >
+  <project path="external/rk_tee_user" name="android_external_rk_tee_user" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="rkst" name="android_rkst" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="vendor/rockchip/hardware" name="android_vendor_rockchip_hardware" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="vendor/rockchip/hardware/interfaces/rockit" name="android_vendor_rockchip_hardware_interfaces_rockit" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="vendor/rockchip/hardware/interfaces/codec2" name="android_vendor_rockchip_hardware_interfaces_codec2" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="vendor/rockchip/hardware/interfaces/rksoundsetting" name="android_vendor_rockchip_hardware_interfaces_rksoundsetting" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="vendor/rockchip/hardware/interfaces/outputmanager" name="android_vendor_rockchip_hardware_interfaces_outputmanager" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="vendor/rockchip/hardware/interfaces/neuralnetworks" name="android_vendor_rockchip_hardware_interfaces_neuralnetworks" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="vendor/rockchip/hardware/interfaces/tv" name="android_vendor_rockchip_hardware_interfaces_tv" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="vendor/widevine" name="android_vendor_widevine" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/libhardware_rockchip" name="android_hardware_libhardware_rockchip" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/drmservice" name="android_hardware_rockchip_drmservice" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/thermal" name="android_hardware_rockchip_thermal" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/libgralloc/midgard" name="android_hardware_rockchip_libgralloc_midgard" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/libgralloc/bifrost" name="android_hardware_rockchip_libgralloc_bifrost" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/libgralloc/utgard" name="android_hardware_rockchip_libgralloc_utgard" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/optee" name="android_hardware_rockchip_optee" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/keymaster4" name="android_hardware_rockchip_keymaster4" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/gatekeeper" name="android_hardware_rockchip_gatekeeper" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/udc_set" name="android_hardware_rockchip_udc_set" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/usb" name="android_hardware_rockchip_usb" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/vibrator_aidl" name="android_hardware_rockchip_vibrator_aidl" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="system/tools/release_tools" name="android_system_tools_release_tools" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" >
     <copyfile src="restore_patches.sh" dest="restore_patches.sh"/>
   </project>
-  <project path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk29" revision="master"/>
-  <project path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk29" revision="master"/>
-  <project path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu" name="rk/prebuilts/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu" remote="rk29" revision="master"/>
-  <project path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" name="rk/prebuilts/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" remote="rk29" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" name="android_prebuilts_gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk29" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" name="android_prebuilts_gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk29" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu" name="android_prebuilts_gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu" remote="rk29" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" name="android_prebuilts_gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" remote="rk29" revision="master"/>
   <!-- build scrpit failed in Q<project path="external/rk_tee_user" name="rk/platform/system/rk_tee_user" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" /> -->
-  <project path="hardware/rockchip/librkvpu" name="rk/hardware/rk29/librkvpu" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/librkvpu" name="android_hardware_rockchip_librkvpu" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
   <!--project path="hardware/rockchip/omx_il" name="rk/hardware/rk29/omx_il" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/-->
-  <project path="hardware/rockchip/camera_vir" name="rk/hardware/rk29/camera_vir" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/camera_engine_rkisp" name="rk/hardware/rk29/camera_engine_rkisp" remote="rk" revision="refs/tags/android-13.0-mid-rkr6.1"/>
-  <project path="hardware/rockchip/audio" name="rk/hardware/rk29/audio" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/sensor" name="rk/hardware/rk29/sensor" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/libmemtrack" name="rk/hardware/rk29/libmemtrack" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/weaver" name="rk/hardware/rk29/weaver" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/fastbootd" name="rk/hardware/rk29/fastbootd" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/bootctrl" name="rk/hardware/rk29/bootctrl" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-  <project path="hardware/rockchip/power_aidl" name="rk/hardware/rk29/power_aidl" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/hw_output" name="rk/hardware/rk29/hw_output" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/tv_input" name="rk/hardware/rk35/tv_input" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/rknn-toolkit2" name="rk/rknn-toolkit2" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/rknpu2" name="rk/rknpu2" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/libsvep" name="rk/libsvep" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="mkcombinedroot" name="platform/mkcombinedroot" remote="rk" revision="refs/tags/android-13.0-mid-rkr6.1">
+  <project path="hardware/rockchip/camera_vir" name="android_hardware_rockchip_camera_vir" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/camera_engine_rkisp" name="android_hardware_rockchip_camera_engine_rkisp" remote="rk" revision="refs/tags/android-13.0-mid-rkr6.1"/>
+  <project path="hardware/rockchip/audio" name="android_hardware_rockchip_audio" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/sensor" name="android_hardware_rockchip_sensor" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/libmemtrack" name="android_hardware_rockchip_libmemtrack" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/weaver" name="android_hardware_rockchip_weaver" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/fastbootd" name="android_hardware_rockchip_fastbootd" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/bootctrl" name="android_hardware_rockchip_bootctrl" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
+  <project path="hardware/rockchip/power_aidl" name="android_hardware_rockchip_power_aidl" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/hw_output" name="android_hardware_rockchip_hw_output" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/tv_input" name="android_hardware_rockchip_tv_input" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/rknn-toolkit2" name="android_hardware_rockchip_rknn-toolkit2" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/rknpu2" name="android_hardware_rockchip_rknpu2" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/libsvep" name="android_hardware_rockchip_libsvep" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="mkcombinedroot" name="android_mkcombinedroot" remote="rk" revision="refs/tags/android-13.0-mid-rkr6.1">
       <linkfile src="configs/android-13.config" dest="kernel-5.10/kernel/configs/android-13.config"/>
       <linkfile src="configs/android-13-go.config" dest="kernel-5.10/kernel/configs/android-13-go.config"/>
       <linkfile src="configs/non_debuggable.config" dest="kernel-5.10/kernel/configs/non_debuggable.config"/>
@@ -83,15 +83,15 @@
       <linkfile src="configs/rk3326.config" dest="kernel-5.10/kernel/configs/rk3326.config"/>
       <linkfile src="configs/rk3399.config" dest="kernel-5.10/kernel/configs/rk3399.config"/>
   </project>
-  <project name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/libbaseparameter" name="rk/hardware/rk29/libbaseparameter" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/libmpimmz" name="rk/hardware/rk29/mpi-mmz" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project name="rk/packages/apps/DisplayAdjust" path="packages/apps/DisplayAdjust" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="packages/apps/rkCamera2" name="rk/rkCamera2" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/librkcrypto" name="rk/librkcrypto" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/libpq" name="rk/libpq-release" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/libiep" name="rk/libiep" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/hdcp2" name="rk/hardware/rockchip/hdcp_release" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
-  <project path="hardware/rockchip/libvendor_storage" name="rk/libvendor_storage" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/libbaseparameter" name="android_hardware_rockchip_libbaseparameter" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/libmpimmz" name="android_hardware_rockchip_libmpimmz" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="packages/apps/DisplayAdjust" name="android_packages_apps_DisplayAdjust" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="packages/apps/rkCamera2" name="android_packages_apps_rkCamera2" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/librkcrypto" name="android_hardware_rockchip_librkcrypto" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/libpq" name="android_hardware_rockchip_libpq" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/libiep" name="android_hardware_rockchip_libiep" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/hdcp2" name="android_hardware_rockchip_hdcp2" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
+  <project path="hardware/rockchip/libvendor_storage" name="android_hardware_rockchip_libvendor_storage" remote="rk29" revision="refs/tags/android-13.0-mid-rkr6"/>
 </manifest>
