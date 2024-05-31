@@ -19,7 +19,7 @@
   </project>
   <project path="device/hardkernel/rk356x" name="android_device_hardkernel_rk356x" remote="origin" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" />
-  <project path="external/camera_engine_rkaiq" name="android_external_camera_engine_rkaiq" remote="origin" />
+  <project path="external/camera_engine_rkaiq" name="android_external_camera_engine_rkaiq" revision="refs/heads/rk35_13.0.0_master" remote="gitlab" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="origin" />
   <project path="external/libubootenv" name="android_external_libubootenv" remote="origin" />
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="origin" />
