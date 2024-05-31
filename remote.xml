@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- remote repo and gerrit review -->
-  <remote name="aosp" fetch="https://android.googlesource.com/" />
-  <remote name="hardkernel" fetch=".." />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com/"
+          review="https://android-review.googlesource.com/" />
+
+  <remote name="hardkernel"
+          fetch="https://github.com/hardkernel/" />
+
   <remote name="origin"
           revision="refs/heads/rk35_13.0.0_master"
-          fetch=".." />
-  <remote name="rk_aosp" fetch=".." />
-  <remote name="rk" fetch=".." />
-  <remote name="rk29" fetch=".." />
-  <remote name="gitlab" fetch="." />
-  <remote name="gitlab_gms" fetch="https://gitlab.com/" />
+          fetch="https://github.com/codewalkerster/" />
+
+  <remote name="rk_aosp"
+          fetch="https://github.com/codewalkerster/" />
+
+  <remote name="rk"
+          fetch="https://github.com/codewalkerster/" />
+
+  <remote name="rk29"
+          fetch="https://github.com/codewalkerster/" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/hardkernel/" />
+
+  <remote name="gitlab_gms"
+          fetch="https://gitlab.com/" />
 </manifest>
