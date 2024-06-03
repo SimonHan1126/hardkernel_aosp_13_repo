@@ -43,8 +43,8 @@
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="origin" groups="pdk" />
   <project path="system/core" name="android_system_core" remote="origin" />
   <project path="system/vold" name="android_system_vold" remote="origin" />
-  <project path="u-boot" name="people/tobetter/github/u-boot" remote="hardkernel" revision="refs/heads/internal/odroidm1-v2017.09" />
-  <project path="u-boot/rkbin" name="rk3568_rkbin" remote="hardkernel" revision="refs/heads/next/odroidm1-v2017.09" />
+  <project path="u-boot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidm1-v2017.09" />
+  <project path="u-boot/rkbin" name="rk3568_rkbin" remote="hardkernel" revision="refs/heads/odroidm1-v2017.09" />
   <project path="vendor/hardkernel/external/boblight" name="android_vendor_hardkernel_external_boblight" remote="origin" revision="refs/heads/master" />
   <project path="vendor/hardkernel/external/can-utils" name="android_vendor_hardkernel_external_can_utils" remote="origin" revision="refs/heads/master" />
   <project path="vendor/hardkernel/external/wiringPi" name="wiringPi" remote="hardkernel" revision="refs/heads/master" />
