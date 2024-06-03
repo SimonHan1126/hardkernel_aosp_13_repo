@@ -10,4 +10,5 @@
   <remote name="rk" fetch=".." />
   <remote name="rk29" fetch=".." />
   <remote name="gitlab" fetch="https://gitlab.com/" />
+  <remote name="gitlab_gms" fetch="https://gitlab.com/" />
 </manifest>
