@@ -33,6 +33,7 @@
   <project path="hardware/hardkernel/odroidThings/ring_buffer" name="android_hardware_hardkernel_odroidThings_ring_buffer" remote="origin" revision="refs/heads/master" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="origin" groups="pdk"/>
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="origin" groups="pdk"/>
+  <project path="hardware/rockchip/audio" name="android_hardware_rockchip_audio" remote="origin" />
   <project path="hardware/rockchip/camera" name="android_hardware_rockchip_camera" remote="origin" />
   <project path="hardware/rockchip/librga" name="android_hardware_rockchip_librga" remote="origin" />
   <project path="hardware/rockchip/light_aidl" name="android_hardware_rockchip_light_aidl" remote="origin" />

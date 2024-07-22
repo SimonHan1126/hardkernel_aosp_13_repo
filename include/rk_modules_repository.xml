@@ -62,7 +62,6 @@
   <!--project path="hardware/rockchip/omx_il" name="rk/hardware/rk29/omx_il" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/-->
   <project path="hardware/rockchip/camera_vir" name="android_hardware_rockchip_camera_vir" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
   <project path="hardware/rockchip/camera_engine_rkisp" name="android_hardware_rockchip_camera_engine_rkisp" remote="rk" revision="refs/tags/android-13.0-mid-rkr6.1"/>
-  <project path="hardware/rockchip/audio" name="android_hardware_rockchip_audio" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
   <project path="hardware/rockchip/sensor" name="android_hardware_rockchip_sensor" remote="rk" revision="refs/tags/android-13.0-mid-rkr6"/>
   <project path="hardware/rockchip/libmemtrack" name="android_hardware_rockchip_libmemtrack" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
   <project path="hardware/rockchip/weaver" name="android_hardware_rockchip_weaver" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
