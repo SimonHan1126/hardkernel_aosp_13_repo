@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remote repo and gerrit review -->
+  <remote name="hardkernel"
+          fetch="https://github.com/hardkernel/" />
+
+  <remote name="origin"
+          revision="refs/heads/s905x5m_14.0.0_master"
+          fetch="../../.." />
+
+  <remote name="amlogic"
+          fetch="https://github.com/codewalkerster/" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/hardkernel/" />
+
+  <remote name="gitlab_gms"
+          fetch="https://gitlab.com/" />
+
+  <remote name="ohd_pdk"
+          fetch="../../u-amlogic/" 
+          revision="refs/heads/amlogic-5.15-dev-u" />
+
+  <remote name="trunk"
+          fetch="../../u-amlogic/" 
+          revision="refs/heads/openlinux/ott/u-amlogic" />
+
+  <remote name="gerrit"
+          fetch="../../u-amlogic/" revision="refs/heads/u-amlogic" review="git.linuxfactory.or.kr:29418/u-amlogic/"/>
+</manifest>
