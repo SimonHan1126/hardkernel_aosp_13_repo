@@ -44,20 +44,9 @@
     <linkfile src="abi" dest="common/common14-5.15/build/abi"/>
     <linkfile src="static_analysis" dest="common/common14-5.15/build/static_analysis"/>
   </project>
-  <project name="kernel/common" path="common/common14-5.15/common" remote="trunk" revision="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u">
-    <linkfile src="." dest="common/common14-5.15/.source_date_epoch_dir"/>
-  </project>
   <project name="kernel/common-modules/virtual-device" path="common/common14-5.15/common-modules/virtual-device" remote="ohd_pdk" revision="3bd713568a58641e2c44c41c796836d0f5454f46" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
-  <project name="kernel/common_drivers" path="common/common14-5.15/common/common_drivers" remote="trunk" revision="refs/heads/openlinux/ott/u-amlogic-5.15" dest-branch="refs/heads/openlinux/ott/u-amlogic-5.15">
-    <linkfile src="mk.sh" dest="common/common14-5.15/mk.sh"/>
-  </project>
   <project name="kernel/configs" path="common/common14-5.15/kernel/configs" remote="ohd_pdk" />
-  <project name="kernel/gki_image" path="common/common14-5.15/gki_image" remote="trunk" revision="fdedc1da8de0e9ee38d19a4d1f4bf8dcf6f23b69" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="kernel/prebuilts/build-tools" path="common/common14-5.15/prebuilts/kernel-build-tools" remote="ohd_pdk" />
-  <project name="kernel/project" path="common/project" remote="trunk" revision="99e7d37da33ac5ab5fdc576267502f2bfbd4aacb" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
-    <linkfile src="build/mk_script.sh" dest="mk"/>
-    <linkfile src="build/mk_script.sh" dest="common/mk"/>
-  </project>
   <project name="kernel/tests" path="common/common14-5.15/kernel/tests" remote="ohd_pdk" />
   <project name="libdmxresconf" path="vendor/amlogic/reference/libdmxresconf" remote="trunk" revision="6820579a5e191064ec7b1aa6336bc4b108664fc4" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="libdvr" path="vendor/amlogic/reference/libdvr" remote="trunk" revision="14ff458c6d1d6ff4121505250192a1f0aacc692c" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>

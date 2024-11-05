@@ -5,4 +5,15 @@
     <copyfile src="vf/vendor_freeze_build.sh" dest="vendor_freeze_build.sh"/>
   </project>
   <project name="android_device_hardkernel_odroidc5" path="device/hardkernel/odroidc5" remote="origin" />
+  <project name="kernel/common" path="common/common14-5.15/common" remote="hardkernel" revision="refs/heads/odroids7d-5.15.y-android" >
+    <linkfile src="." dest="common/common14-5.15/.source_date_epoch_dir"/>
+  </project>
+  <project name="kernel/common_drivers" path="common/common14-5.15/common/common_drivers" remote="hardkernel" revision="refs/heads/odroids7d-5.15.y-android" >
+    <linkfile src="mk.sh" dest="common/common14-5.15/mk.sh"/>
+  </project>
+  <project name="kernel/gki_image" path="common/common14-5.15/gki_image" remote="hardkernel" revision="refs/heads/odroids7d-5.15.y-android" />
+  <project name="kernel/project" path="common/project" remote="hardkernel" revision="refs/heads/odroids7d-5.15.y-android" >
+    <linkfile src="build/mk_script.sh" dest="mk"/>
+    <linkfile src="build/mk_script.sh" dest="common/mk"/>
+  </project>
 </manifest>
