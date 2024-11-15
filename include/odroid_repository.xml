@@ -3,6 +3,7 @@
   <project name="people/tobetter/github/u-boot" path="u-boot" revision="odroidc5-v2023.01" remote="origin" />
   <project name="android_device_hardkernel_common" path="device/hardkernel/common" remote="origin" >
     <copyfile src="vf/vendor_freeze_build.sh" dest="vendor_freeze_build.sh"/>
+    <copyfile src="compile_env.sh" dest="compile_env.sh"/>
   </project>
   <project name="android_device_hardkernel_odroidc5" path="device/hardkernel/odroidc5" remote="origin" />
   <project name="kernel/common" path="common/common14-5.15/common" remote="hardkernel" revision="refs/heads/odroids7d-5.15.y-android" >
