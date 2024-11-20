@@ -210,7 +210,6 @@
   <project name="vendor/amlogic/tdk_linuxdriver" path="common/driver_modules/tdk_linuxdriver" remote="trunk" revision="470cf670b76e62c9ac52abde29c6a9edee9a0813" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
     <linkfile src="." dest="common/common14-5.15/driver_modules/tdk_linuxdriver"/>
   </project>
-  <project name="vendor/amlogic/tools/DroidlogicPatch" path="vendor/amlogic/common/auto_patch" remote="trunk" revision="3b69d6211dc5adf60f1c475363e3da6625d9a550" upstream="refs/heads/openlinux/ott/u-amlogic-aosp" dest-branch="refs/heads/openlinux/ott/u-amlogic-aosp"/>
   <project name="vendor/amlogic/tv" path="vendor/amlogic/reference/tv" remote="trunk" revision="9fd60bb3d27416faf9a9fb72768b368aff14a5b9" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/tvserver" path="vendor/amlogic/reference/tv/tvserver" remote="trunk" revision="41c2c751010d9d7f08b51667a4e37404cdf4444f" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/wifi" path="common/driver_modules/wifi_bt/wifi" remote="trunk" >
