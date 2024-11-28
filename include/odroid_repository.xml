@@ -17,5 +17,6 @@
     <linkfile src="build/mk_script.sh" dest="mk"/>
     <linkfile src="build/mk_script.sh" dest="common/mk"/>
   </project>
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="origin" groups="pdk"/>
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" />
 </manifest>
