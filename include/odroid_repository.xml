@@ -9,6 +9,7 @@
   <project name="kernel/common" path="common/common14-5.15/common" remote="hardkernel" revision="refs/heads/odroids7d-5.15.y-android" >
     <linkfile src="." dest="common/common14-5.15/.source_date_epoch_dir"/>
   </project>
+  <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" />
   <project name="kernel/common_drivers" path="common/common14-5.15/common/common_drivers" remote="hardkernel" revision="refs/heads/odroids7d-5.15.y-android" >
     <linkfile src="mk.sh" dest="common/common14-5.15/mk.sh"/>
   </project>
