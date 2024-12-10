@@ -55,14 +55,6 @@
   <project name="linux/amlogic/meson_mali" path="vendor/amlogic/common/gpu-lib" remote="trunk" revision="c261dfef31beafbbbbdc142a86a6ea17fefd6477" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform/amlogic/external/libzvbi_src" path="vendor/amlogic/reference/external/libzvbi_src" remote="trunk" revision="97f162848c2c64095cc0d1354e3d82eed149d6fb" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" remote="gerrit" groups="pdk"/>
-  <project name="platform/build" path="build/make" remote="gerrit" groups="pdk">
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
-    <linkfile src="core" dest="build/core"/>
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
-    <linkfile src="target" dest="build/target"/>
-    <linkfile src="tools" dest="build/tools"/>
-  </project>
   <project name="platform/build/bazel_common_rules" path="common/common14-5.15/build/bazel_common_rules" remote="ohd_pdk" revision="b4f0919269ec78d28ec32a34ca90e107c3a41f4e" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/development" path="development" remote="gerrit" groups="developers,pdk-cw-fs,pdk-fs"/>
   <project name="platform/external/aac" path="external/aac" remote="gerrit" groups="pdk"/>

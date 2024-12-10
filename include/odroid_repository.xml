@@ -5,6 +5,14 @@
     <copyfile src="vf/vendor_freeze_build.sh" dest="vendor_freeze_build.sh"/>
     <copyfile src="compile_env.sh" dest="compile_env.sh"/>
   </project>
+  <project name="android_build" path="build/make" remote="origin" groups="pdk">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+    <linkfile src="core" dest="build/core"/>
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+    <linkfile src="target" dest="build/target"/>
+    <linkfile src="tools" dest="build/tools"/>
+  </project>
   <project name="android_device_hardkernel_odroidc5" path="device/hardkernel/odroidc5" remote="origin" />
   <project name="kernel/common" path="common/common14-5.15/common" remote="hardkernel" revision="refs/heads/odroids7d-5.15.y-android" >
     <linkfile src="." dest="common/common14-5.15/.source_date_epoch_dir"/>
