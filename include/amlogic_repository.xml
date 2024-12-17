@@ -70,7 +70,6 @@
   <project name="platform/external/python/absl-py" path="common/common14-5.15/external/python/absl-py" remote="ohd_pdk" revision="2f199605a9875340569e039657f8b4c72d51b84d" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/external/stardoc" path="common/common14-5.15/external/stardoc" remote="ohd_pdk" revision="e83f522ee95419e55d2c5654aa6e0143beeef595" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/frameworks/av" path="frameworks/av" remote="gerrit" groups="pdk"/>
-  <project name="platform/frameworks/base" path="frameworks/base" remote="gerrit" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/frameworks/native" path="frameworks/native" remote="gerrit" groups="pdk"/>
   <project name="platform/frameworks/proto_logging" path="frameworks/proto_logging" remote="gerrit" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/hardware/amlogic" path="hardware/amlogic" remote="trunk" revision="6db5b03c4a7efeafc848a39fe5b5e76bb41ea9eb" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
