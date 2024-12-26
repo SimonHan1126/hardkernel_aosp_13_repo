@@ -31,4 +31,5 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="origin" groups="pdk"/>
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="origin" />
+  <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="origin" />
 </manifest>
