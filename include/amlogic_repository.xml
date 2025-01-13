@@ -147,7 +147,6 @@
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="common/common14-5.15/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="ohd_pdk" revision="f6d40532273c8bd628b960ecc0970c7294c8d891" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/prebuilts/jdk/jdk11" path="common/common14-5.15/prebuilts/jdk/jdk11" remote="ohd_pdk" revision="649eec4416e2ed6298af49a56876772767a0e5ae" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/system/bpf" path="system/bpf" remote="gerrit" groups="pdk"/>
-  <project name="platform/system/core" path="system/core" remote="gerrit" groups="pdk"/>
   <project name="platform/system/security" path="system/security" remote="gerrit" groups="pdk"/>
   <project name="platform/system/sepolicy" path="system/sepolicy" remote="gerrit" groups="pdk"/>
   <project name="platform/system/tools/mkbootimg" path="common/common14-5.15/tools/mkbootimg" remote="ohd_pdk" />
