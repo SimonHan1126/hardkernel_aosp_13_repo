@@ -9,24 +9,6 @@
   <project name="DTVKit/dtvkit-amlogic" path="vendor/amlogic/reference/external/DTVKit/dtvkit-amlogic" remote="trunk" revision="8479c6264d2818e10a18ae62ce164375aae30e7f" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="DTVKit/releaseDTVKit" path="vendor/amlogic/reference/external/DTVKit/releaseDTVKit" remote="trunk" revision="2b2f333c5bece281cb8466f327701183e302b447" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="cas/cas-hal" path="vendor/amlogic/reference/external/DTVKit/cas_hal" remote="trunk" revision="707a8498044fe3255aae95520bdd28e4e713a41e" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/bluebell" path="device/amlogic/bluebell_wv4" remote="trunk" revision="1fd1b83541c92027e7502785c68977af94e8a505" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/common" remote="trunk" revision="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
-    <copyfile src="vf/vendor_freeze_build.sh" dest="vendor_freeze_build.sh"/>
-  </project>
-  <project name="device/amlogic/ohm" remote="trunk" revision="ddadc9eb4f64b4edea938b353d59b35d56d806ee" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/ohm_wv4" remote="trunk" revision="d7b626dc0abe6106b388afe27b841e30ee53830e" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/ohmcas" remote="trunk" revision="220906a2ef20601118f603a1ffecd8273857f590" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/ohmcas2" remote="trunk" revision="32be6f39d7d1b81e73c1367a23a2accfe619bb9a" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/oppen" remote="trunk" revision="f140ab1ab1a08dd327b208c722ef58e525dddca6" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/oppen_wv4" remote="trunk" revision="376451eb9c414984817e7d2a3584a70b7fc2385d" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/oppencas" remote="trunk" revision="a91c47ba6c915781e6c735e5149534d732ff8607" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/pascal" remote="trunk" revision="f92aa56dcdea3dd325304553527b51039db50839" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/planck" remote="trunk" revision="fcd98eaf8d8e124ee3aaf6d36ebae195b23d7459" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/planck_wv4" remote="trunk" revision="99ea7b2b798cb1e026cabfa4941a60d1a87853c1" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/qurra" remote="trunk" revision="3a834cdcda895d2f0a55704d89b9def0c0a21c1b" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/raman" remote="trunk" revision="fedc2aab9713de877233e1ecf10f35f212facc90" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/ross" remote="trunk" revision="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/amlogic/tyson" remote="trunk" revision="0403294bf7a1e29784e6114d0f79c9bae5afb8d8" upstream="openlinux/ott/u-amlogic" dest-branch="openlinux/ott/u-amlogic"/>
   <project name="device/google/atv" remote="gerrit" groups="device,broadcom_pdk,generic_fs,pdk"/>
   <project name="device/google/cuttlefish" groups="device,pdk" upstream="u-tv-keystone-ref-release" remote="gerrit" />
   <project name="dvb" path="vendor/amlogic/reference/external/dvb" remote="trunk" revision="ef88c30153092ee04876723d5cef55704382f5c8" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
