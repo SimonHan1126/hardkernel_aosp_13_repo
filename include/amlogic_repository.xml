@@ -133,7 +133,7 @@
   <project name="platform/system/tools/mkbootimg" path="common/common14-5.15/tools/mkbootimg" remote="ohd_pdk" />
   <project name="platform/system/vold" path="system/vold" remote="gerrit" groups="pdk"/>
   <project name="platform/vendor/amlogic/bluebell" path="vendor/amlogic/bluebell_wv4" remote="trunk" revision="1bc00bd26a6597605c216b8b309e9aba59dcdc5f" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/vendor/amlogic/common" path="vendor/amlogic/common" remote="trunk" revision="7db536df92b885e83aedea7a4edce3d54d269f20" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
+  <project name="platform/vendor/amlogic/common" path="vendor/amlogic/common" remote="trunk" revision="refs/heads/u-amlogic" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
     <linkfile src=".ref_android_bp" dest="vendor/amlogic/reference/Android.bp"/>
     <linkfile src=".ref_android_mk" dest="vendor/amlogic/reference/Android.mk"/>
   </project>
@@ -155,10 +155,10 @@
   <project name="vendor/amlogic/common/apps/LauncherCustomization" path="vendor/amlogic/reference/apps/LauncherCustomization" remote="trunk" revision="985e7f0faa97c8638e0674cafdf8a8c03278cb40" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/dsp_util" path="vendor/amlogic/common/dsp/dsp_util" remote="trunk" revision="66225d9a7294f79c38c2d4c87d70332745b6f405" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/efuse" path="vendor/amlogic/common/efuse" remote="trunk" revision="924789214a5ac99a662586ef08734025fbc30bf6" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/frameworks/av" path="vendor/amlogic/common/frameworks/av" remote="trunk" revision="2d853d6647792c9a4e57e80662315cd3be18ca9d" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/frameworks/av" path="vendor/amlogic/common/frameworks/av" remote="trunk" revision="refs/heads/u-amlogic" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/hdcp" path="vendor/amlogic/common/hdcp" remote="trunk" revision="a1f5cd47f76af1a1d462dcc5eea87b7fe9a82435" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/libdsm" path="vendor/amlogic/common/libdsm" remote="trunk" revision="9d8d5a1c9b326950891af2fd81e0b26bab470d51" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/livetv" path="vendor/amlogic/reference/prebuilt/livetv" remote="trunk" revision="52865166fed10d39dd61f48d0472d06ea48d983e" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/livetv" path="vendor/amlogic/reference/prebuilt/livetv" remote="trunk" revision="refs/heads/u-amlogic" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/mediahal_sdk" path="vendor/amlogic/common/mediahal_sdk" remote="trunk" revision="2d8cb915a26ac4b469acf3824688b628dc7575f2" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/oppen" remote="trunk" revision="db3158d8443fbebb73f55d891c39fdfdb3ffb0b2" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/pascal" remote="trunk" revision="cf6150dadbfcadb2eb5c31751cfac77dabfe94ce" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
@@ -169,7 +169,7 @@
   <project name="vendor/amlogic/prebuilt/tuner" path="vendor/amlogic/reference/prebuilt/kernel-modules/tuner" remote="trunk" revision="e957115df3fd0f0a8595b6b064f4430992ae77ab" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/provision" path="vendor/amlogic/common/provision" remote="trunk" revision="7a4dcb0d5a9e1bebd6f3de9d3edfd80254fb75d0" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/qurra" remote="trunk" revision="0e30447099c3b083cc5962b8567d128fa1f30a26" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/ross" remote="trunk" revision="c44e37b2ddc9727c5e69544bb8c138ab92fba25a" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/ross" remote="trunk" revision="refs/heads/u-amlogic" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/subtitle" path="vendor/amlogic/reference/subtitle" remote="trunk" revision="e11629d5096f96e173962153addff085f77b8897" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/system/libgdc" path="vendor/amlogic/common/system/libgdc" remote="trunk" revision="173e27e43a35b03d30eabc0ff6f0110c8203ccd9" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/tdk_basic" path="vendor/amlogic/common/tdk" remote="trunk" revision="1f3e3a07f705ca089449de5442d33092094f20ae" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
