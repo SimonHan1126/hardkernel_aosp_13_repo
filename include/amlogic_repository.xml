@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--<default revisiont="refs/heads/u-amlogic" remote="gerrit" />-->
-  <project name="DTVKit/AFD" path="common/driver_modules/DTVKit/AFD" remote="trunk" revision="a3e7cc0d74401e6194c565ec5fb1df17836f2245" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
+  <project name="DTVKit/AFD" path="common/driver_modules/DTVKit/AFD" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
     <linkfile src="." dest="common/common14-5.15/driver_modules/DTVKit/AFD"/>
   </project>
-  <project name="DTVKit/android-inputsource" path="vendor/amlogic/reference/external/DTVKit/android-inputsource" remote="trunk" revision="40fd52e2601dc6d7e38f957b12893053296b1fbe" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="DTVKit/ccta" path="vendor/amlogic/reference/external/DTVKit/releaseDTVKit/ccta" remote="trunk" revision="79a690426783a17ad6c32b141a9a0fad5e1d6684" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="DTVKit/dtvkit-amlogic" path="vendor/amlogic/reference/external/DTVKit/dtvkit-amlogic" remote="trunk" revision="8479c6264d2818e10a18ae62ce164375aae30e7f" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="DTVKit/releaseDTVKit" path="vendor/amlogic/reference/external/DTVKit/releaseDTVKit" remote="trunk" revision="2b2f333c5bece281cb8466f327701183e302b447" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="cas/cas-hal" path="vendor/amlogic/reference/external/DTVKit/cas_hal" remote="trunk" revision="707a8498044fe3255aae95520bdd28e4e713a41e" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="DTVKit/android-inputsource" path="vendor/amlogic/reference/external/DTVKit/android-inputsource" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="DTVKit/ccta" path="vendor/amlogic/reference/external/DTVKit/releaseDTVKit/ccta" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="DTVKit/dtvkit-amlogic" path="vendor/amlogic/reference/external/DTVKit/dtvkit-amlogic" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="DTVKit/releaseDTVKit" path="vendor/amlogic/reference/external/DTVKit/releaseDTVKit" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="cas/cas-hal" path="vendor/amlogic/reference/external/DTVKit/cas_hal" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="device/google/atv" remote="gerrit" groups="device,broadcom_pdk,generic_fs,pdk"/>
   <project name="device/google/cuttlefish" groups="device,pdk" upstream="u-tv-keystone-ref-release" remote="gerrit" />
-  <project name="dvb" path="vendor/amlogic/reference/external/dvb" remote="trunk" revision="ef88c30153092ee04876723d5cef55704382f5c8" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="kernel/build" path="common/common14-5.15/build/kernel" remote="ohd_pdk" revision="55cf78aff09739de2c890a23afddf4f50deffa8a" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u">
+  <project name="dvb" path="vendor/amlogic/reference/external/dvb" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="kernel/build" path="common/common14-5.15/build/kernel" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u">
     <linkfile src="kleaf/bazel.sh" dest="common/common14-5.15/tools/bazel"/>
     <linkfile src="kleaf/bazel.WORKSPACE" dest="common/common14-5.15/WORKSPACE"/>
     <linkfile src="build.sh" dest="common/common14-5.15/build/build.sh"/>
@@ -26,152 +26,154 @@
     <linkfile src="abi" dest="common/common14-5.15/build/abi"/>
     <linkfile src="static_analysis" dest="common/common14-5.15/build/static_analysis"/>
   </project>
-  <project name="kernel/common-modules/virtual-device" path="common/common14-5.15/common-modules/virtual-device" remote="ohd_pdk" revision="3bd713568a58641e2c44c41c796836d0f5454f46" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="kernel/common-modules/virtual-device" path="common/common14-5.15/common-modules/virtual-device" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="kernel/configs" path="common/common14-5.15/kernel/configs" remote="ohd_pdk" />
   <project name="kernel/prebuilts/build-tools" path="common/common14-5.15/prebuilts/kernel-build-tools" remote="ohd_pdk" />
   <project name="kernel/tests" path="common/common14-5.15/kernel/tests" remote="ohd_pdk" />
-  <project name="libdmxresconf" path="vendor/amlogic/reference/libdmxresconf" remote="trunk" revision="6820579a5e191064ec7b1aa6336bc4b108664fc4" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="libdvr" path="vendor/amlogic/reference/libdvr" remote="trunk" revision="14ff458c6d1d6ff4121505250192a1f0aacc692c" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="libsecdmx_release" path="vendor/amlogic/reference/libsecdmx_release" remote="trunk" revision="d528f29c1d660181ce3a25080d410e2e0a8ca83f" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="linux/amlogic/meson_display" path="hardware/amlogic/hwcomposer/mesondisplay" remote="trunk" revision="7305dfd069ac7c39e1a8ce933eef6ef85a53e229" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="linux/amlogic/meson_mali" path="vendor/amlogic/common/gpu-lib" remote="trunk" revision="c261dfef31beafbbbbdc142a86a6ea17fefd6477" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/amlogic/external/libzvbi_src" path="vendor/amlogic/reference/external/libzvbi_src" remote="trunk" revision="97f162848c2c64095cc0d1354e3d82eed149d6fb" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="libdmxresconf" path="vendor/amlogic/reference/libdmxresconf" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="libdvr" path="vendor/amlogic/reference/libdvr" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="libsecdmx_release" path="vendor/amlogic/reference/libsecdmx_release" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="linux/amlogic/meson_display" path="hardware/amlogic/hwcomposer/mesondisplay" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="linux/amlogic/meson_mali" path="vendor/amlogic/common/gpu-lib" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/amlogic/external/libzvbi_src" path="vendor/amlogic/reference/external/libzvbi_src" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" remote="gerrit" groups="pdk"/>
-  <project name="platform/build/bazel_common_rules" path="common/common14-5.15/build/bazel_common_rules" remote="ohd_pdk" revision="b4f0919269ec78d28ec32a34ca90e107c3a41f4e" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform/build/bazel_common_rules" path="common/common14-5.15/build/bazel_common_rules" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/development" path="development" remote="gerrit" groups="developers,pdk-cw-fs,pdk-fs"/>
   <project name="platform/external/aac" path="external/aac" remote="gerrit" groups="pdk"/>
-  <project name="platform/external/bazel-skylib" path="common/common14-5.15/external/bazel-skylib" remote="ohd_pdk" revision="f998e5dc13c03f0eae9e373263d3afff0932c738" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform/external/bazel-skylib" path="common/common14-5.15/external/bazel-skylib" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/external/erofs-utils" path="external/erofs-utils" remote="gerrit" groups="pdk"/>
-  <project name="platform/external/ffmpeg-aml" path="vendor/amlogic/common/external/ffmpeg" remote="trunk" revision="9c8bec0060948cf5cd01edac529c6f30caef90ba" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/external/ffmpeg-aml" path="vendor/amlogic/common/external/ffmpeg" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform/external/gptfdisk" path="external/gptfdisk" remote="gerrit" groups="pdk"/>
   <project name="platform/external/libaom" path="external/libaom" remote="gerrit" groups="pdk"/>
   <project name="platform/external/libcxx" path="external/libcxx" remote="gerrit" groups="pdk"/>
   <project name="platform/external/libvpx" path="external/libvpx" remote="gerrit" groups="pdk"/>
   <project name="platform/external/libwebsockets" path="external/libwebsockets" remote="gerrit" groups="pdk"/>
-  <project name="platform/external/ntfs-3g" path="vendor/amlogic/common/external/ntfs-3g" remote="trunk" revision="4875b264a2f400696f3b560e16c5851704e49be1" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/external/python/absl-py" path="common/common14-5.15/external/python/absl-py" remote="ohd_pdk" revision="2f199605a9875340569e039657f8b4c72d51b84d" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
-  <project name="platform/external/stardoc" path="common/common14-5.15/external/stardoc" remote="ohd_pdk" revision="e83f522ee95419e55d2c5654aa6e0143beeef595" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform/external/ntfs-3g" path="vendor/amlogic/common/external/ntfs-3g" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/external/python/absl-py" path="common/common14-5.15/external/python/absl-py" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform/external/stardoc" path="common/common14-5.15/external/stardoc" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/frameworks/av" path="frameworks/av" remote="gerrit" groups="pdk"/>
   <project name="platform/frameworks/proto_logging" path="frameworks/proto_logging" remote="gerrit" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="platform/hardware/amlogic" path="hardware/amlogic" remote="trunk" revision="6db5b03c4a7efeafc848a39fe5b5e76bb41ea9eb" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/amlogic/adla" path="vendor/amlogic/common/adla_lib" remote="trunk" revision="873316bb2088ad6e166be6083bcfcffafbf14180" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/amlogic/adla_driver" path="common/driver_modules/adla/driver" remote="trunk" revision="dd488406f15f1c3abdd7d36f1de5c49c0d1e0bbb" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
+  <project name="platform/hardware/amlogic" path="hardware/amlogic" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/amlogic/adla" path="vendor/amlogic/common/adla_lib" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/amlogic/adla_driver" path="common/driver_modules/adla/driver" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
     <linkfile src="." dest="common/common14-5.15/driver_modules/adla/driver"/>
   </project>
-  <project name="platform/hardware/amlogic/aml_npu_common" path="vendor/amlogic/common/aml_npu_common" remote="trunk" revision="4de0112e6a39e8a00290b08f024f45b0e9e718d3" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/amlogic/aucpu_fw" path="hardware/amlogic/aucpu_fw" remote="trunk" revision="c11868aabb8784c74305d19793e7346a4eea11cd" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/amlogic/audio" path="hardware/amlogic/audio" remote="trunk" revision="33620404907a8a736a74d051b193cc89cafd0b00" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/amlogic/bluetooth" path="vendor/amlogic/common/wifi_bt/bluetooth/amlogic" remote="trunk" revision="631959e39dc1913ce67a52fbbdb76ea5387a0fe8" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/amlogic/cve_driver" path="hardware/amlogic/cve/driver" remote="trunk" revision="73fdf80fc94f5cf3585cbb136c083d4520cbc561" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/amlogic/cve_lib" path="hardware/amlogic/cve/lib" remote="trunk" revision="5ddfa099352d705446b22718895248adeee7ad9d" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/amlogic/gralloc" path="hardware/amlogic/gralloc" remote="trunk" revision="9880166c0886601b95289fc64f2ee4a63b807c74" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/amlogic/hwcomposer" path="hardware/amlogic/hwcomposer" remote="trunk" revision="a890d283ad9aa27eef987441124b515298364e0a" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/amlogic/libencoder" path="vendor/amlogic/common/libencoder" remote="trunk" revision="3222dfc1a144f62b3edbc0062a5a44f0529c9542" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/amlogic/media_modules" path="common/driver_modules/media_modules" remote="trunk" revision="a1e0a542d7149d06bf29939c2d1194d3081b12ea" upstream="refs/heads/openlinux/ott/u-amlogic-5.15" dest-branch="refs/heads/openlinux/ott/u-amlogic-5.15">
+  <project name="platform/hardware/amlogic/aml_npu_common" path="vendor/amlogic/common/aml_npu_common" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/amlogic/aucpu_fw" path="hardware/amlogic/aucpu_fw" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/amlogic/audio" path="hardware/amlogic/audio" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/amlogic/bluetooth" path="vendor/amlogic/common/wifi_bt/bluetooth/amlogic" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/amlogic/cve_driver" path="hardware/amlogic/cve/driver" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/amlogic/cve_lib" path="hardware/amlogic/cve/lib" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/amlogic/gralloc" path="hardware/amlogic/gralloc" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/amlogic/hwcomposer" path="hardware/amlogic/hwcomposer" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/amlogic/libencoder" path="vendor/amlogic/common/libencoder" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/amlogic/media_modules" path="common/driver_modules/media_modules" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic-5.15" revision="refs/heads/openlinux/ott/u-amlogic-5.15">
     <linkfile src="." dest="common/common14-5.15/driver_modules/media_modules"/>
   </project>
-  <project name="platform/hardware/amlogic/tuner" path="hardware/amlogic/tuner" remote="trunk" revision="acfc77e03035c25ce110bffedf0e89d56c5522a6" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/amlogic/tv_input" path="hardware/amlogic/tv" remote="trunk" revision="588a363d809902b036a66de7a5b5db7201b47956" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/arm/gpu" path="common/driver_modules/gpu" remote="trunk" revision="b885f4bcf901732bea2c3d311b58a6cbb266c86d" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
+  <project name="platform/hardware/amlogic/tuner" path="hardware/amlogic/tuner" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/amlogic/tv_input" path="hardware/amlogic/tv" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/arm/gpu" path="common/driver_modules/gpu" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
     <linkfile src="." dest="common/common14-5.15/driver_modules/gpu"/>
   </project>
-  <project name="platform/hardware/arm/isp" path="common/driver_modules/camera" remote="trunk" revision="854cceb0bf20c9b8301d6aa6ca50ad75eb46f3fa" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
+  <project name="platform/hardware/arm/isp" path="common/driver_modules/camera" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
     <linkfile src="." dest="common/common14-5.15/driver_modules/camera"/>
   </project>
   <project name="platform/hardware/libhardware" path="hardware/libhardware" remote="gerrit" groups="pdk"/>
-  <project name="platform/hardware/verisilicon/npu" path="vendor/amlogic/common/npu" remote="trunk" revision="9d3ffe98fd446760dbf129bc166371b73175194c" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/amlogic/drivers/w1" path="common/driver_modules/wifi_bt/wifi/amlogic/w1/wifi" remote="trunk" revision="f29a28b2ccd220e0d23cea6e04a441204bc0227e" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/amlogic/drivers/w1u" path="common/driver_modules/wifi_bt/wifi/amlogic/w1u" remote="trunk" revision="be9fb559ccc173a4dcc1bfcfb24a78c8b932e15c" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/amlogic/drivers/w2" path="common/driver_modules/wifi_bt/wifi/amlogic/w2" remote="trunk" revision="129fb4d8e5705bbfa8549bb1131d46e641542712" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/amlogic/drivers/wifi_comm" path="common/driver_modules/wifi_bt/wifi/amlogic/wifi_comm" remote="trunk" revision="c58cc02fc5919aad33e4b2021ce9b44a167d27d3" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/atbm" path="common/driver_modules/wifi_bt/wifi/atbm" remote="trunk" revision="b9064fa38ec9a365b68051d8af30331e67f0c0f0" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/broadcom/drivers/ap6xxx" path="common/driver_modules/wifi_bt/wifi/broadcom/ap6xxx" remote="trunk" revision="7d1d910aebd71f567ba9f28430cd624245e78e24" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/marvell/drivers/sd8987" path="common/driver_modules/wifi_bt/wifi/marvell/sd8987" remote="trunk" revision="0b3ffdfa11a3e02b5521589bf8862e848b01f70f" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/mtk/drivers/mt7661" path="common/driver_modules/wifi_bt/wifi/mtk/drivers/mt7661" remote="trunk" revision="039e5a47a13ddaf276f67d55565e645d87f1d8d3" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/mtk/drivers/mt7663u" path="common/driver_modules/wifi_bt/wifi/mtk/drivers/mt7663u" remote="trunk" revision="5ff59aa9f81a2995cd688d9e7ba0d68488f8047e" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/mtk/drivers/mt7668u" path="common/driver_modules/wifi_bt/wifi/mtk/drivers/mt7668u" remote="trunk" revision="b86cd05fb966f037926f720f25efeadd665cebba" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/qualcomm/drivers/qca6174" path="common/driver_modules/wifi_bt/wifi/qualcomm/qca6174" remote="trunk" revision="2b6374f79ef0f311cb65c10cd9e8e7b1672df74e" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/realtek/drivers/8723bu" path="common/driver_modules/wifi_bt/wifi/realtek/8723bu" remote="trunk" revision="3d50a18166780062430bc97a236de31732766e9d" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/realtek/drivers/8723du" path="common/driver_modules/wifi_bt/wifi/realtek/8723du" remote="trunk" revision="4f8c4df0fce6af37cac3187c3871302c9a0f0848" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/realtek/drivers/8733bu" path="common/driver_modules/wifi_bt/wifi/realtek/8733bu" remote="trunk" revision="12efc24b4d21619fbe34e4cfcbb5da641dfea381" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/realtek/drivers/8821cu" path="common/driver_modules/wifi_bt/wifi/realtek/8821cu" remote="trunk" revision="516402e8ada7e73ae5f246f39853814fa8f164ba" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/realtek/drivers/8822cs" path="common/driver_modules/wifi_bt/wifi/realtek/8822cs" remote="trunk" revision="d7d6730a68bdb1d50cf7442bd36cc9f123dcc9b1" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/realtek/drivers/8822cu" path="common/driver_modules/wifi_bt/wifi/realtek/8822cu" remote="trunk" revision="7829411aabad83676ab0fb837c46746b9f4af385" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/realtek/drivers/8822es" path="common/driver_modules/wifi_bt/wifi/realtek/8822es" remote="trunk" revision="bc604403f881d2cc9601a048003180f35445f450" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/realtek/drivers/8852be" path="common/driver_modules/wifi_bt/wifi/realtek/8852be" remote="trunk" revision="66c73cdfbd65514904f94b4da31b0c6541bbd0e3" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/realtek/drivers/8852bs" path="common/driver_modules/wifi_bt/wifi/realtek/8852bs" remote="trunk" revision="099ee20dd28569723dd6b831ad83c96714952ff7" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/hardware/wifi/unisoc/drivers/uwe5621" path="common/driver_modules/wifi_bt/wifi/unisoc/uwe5621" remote="trunk" revision="6d721a815a1dcd8bd4113b17f8f80be25090d975" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/packages/amlogic/AppInstaller" path="vendor/amlogic/reference/apps/AppInstaller" remote="trunk" revision="58ad5e33b6fd7861def6549b83473df0f0789491" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/packages/amlogic/DLNA" path="vendor/amlogic/reference/apps/DLNA" remote="trunk" revision="77d0cb2a30766a21aad82e1be909b93cf3928d4a" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/packages/amlogic/DroidTvExtras" path="vendor/amlogic/reference/apps/DroidTvExtras" remote="trunk" revision="c4968a2f54de462df55f78476f3895bff6cbb77d" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/packages/amlogic/FileBrowser" path="vendor/amlogic/reference/apps/FileBrowser" remote="trunk" revision="46cecaf9b8576069420347f57f47449fb0b8cbc1" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/reference/apps/MboxLauncher2" remote="trunk" revision="7a1ae2c3532548933a0a48c1050c930cce51fb12" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/packages/amlogic/Miracast" path="vendor/amlogic/reference/apps/Miracast" remote="trunk" revision="b40fbd8def030adcdc221ef1388d71d6a776d168" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/packages/amlogic/NativeImagePlayer" path="vendor/amlogic/reference/apps/NativeImagePlayer" remote="trunk" revision="cbdc781e86121891ea577dd479e8d09153c0ca4f" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/packages/amlogic/RemoteIME" path="vendor/amlogic/reference/apps/RemoteIME" remote="trunk" revision="dd94a92634aa3744376be6d41ae99957404d6633" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/packages/amlogic/TvInput" path="vendor/amlogic/reference/apps/TvInput" remote="trunk" revision="c85daa0058c98314ae7c4a1b30807ecd42c446ef" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/verisilicon/npu" path="vendor/amlogic/common/npu" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/amlogic/drivers/w1" path="common/driver_modules/wifi_bt/wifi/amlogic/w1/wifi" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/amlogic/drivers/w1u" path="common/driver_modules/wifi_bt/wifi/amlogic/w1u" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/amlogic/drivers/w2" path="common/driver_modules/wifi_bt/wifi/amlogic/w2" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/amlogic/drivers/w2l" path="common/driver_modules/wifi_bt/wifi/amlogic/w2l" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/amlogic/drivers/wifi_comm" path="common/driver_modules/wifi_bt/wifi/amlogic/wifi_comm" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/atbm" path="common/driver_modules/wifi_bt/wifi/atbm" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/broadcom/drivers/ap6xxx" path="common/driver_modules/wifi_bt/wifi/broadcom/ap6xxx" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/marvell/drivers/sd8987" path="common/driver_modules/wifi_bt/wifi/marvell/sd8987" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/mtk/drivers/mt7661" path="common/driver_modules/wifi_bt/wifi/mtk/drivers/mt7661" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/mtk/drivers/mt7663u" path="common/driver_modules/wifi_bt/wifi/mtk/drivers/mt7663u" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/mtk/drivers/mt7668u" path="common/driver_modules/wifi_bt/wifi/mtk/drivers/mt7668u" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/qualcomm/drivers/qca6174" path="common/driver_modules/wifi_bt/wifi/qualcomm/qca6174" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/realtek/drivers/8723bu" path="common/driver_modules/wifi_bt/wifi/realtek/8723bu" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/realtek/drivers/8723du" path="common/driver_modules/wifi_bt/wifi/realtek/8723du" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/realtek/drivers/8733bu" path="common/driver_modules/wifi_bt/wifi/realtek/8733bu" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/realtek/drivers/8821cu" path="common/driver_modules/wifi_bt/wifi/realtek/8821cu" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/realtek/drivers/8822cs" path="common/driver_modules/wifi_bt/wifi/realtek/8822cs" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/realtek/drivers/8822cu" path="common/driver_modules/wifi_bt/wifi/realtek/8822cu" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/realtek/drivers/8822es" path="common/driver_modules/wifi_bt/wifi/realtek/8822es" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/realtek/drivers/8852be" path="common/driver_modules/wifi_bt/wifi/realtek/8852be" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/realtek/drivers/8852bs" path="common/driver_modules/wifi_bt/wifi/realtek/8852bs" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/hardware/wifi/unisoc/drivers/uwe5621" path="common/driver_modules/wifi_bt/wifi/unisoc/uwe5621" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/packages/amlogic/AppInstaller" path="vendor/amlogic/reference/apps/AppInstaller" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/packages/amlogic/DLNA" path="vendor/amlogic/reference/apps/DLNA" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/packages/amlogic/DroidTvExtras" path="vendor/amlogic/reference/apps/DroidTvExtras" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/packages/amlogic/FileBrowser" path="vendor/amlogic/reference/apps/FileBrowser" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/packages/amlogic/FileBrowser" path="vendor/amlogic/reference/apps/FileBrowser2" remote="trunk" upstream="refs/heads/r-amlogic" revision="refs/heads/t-tv-dev"/>
+  <project name="platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/reference/apps/MboxLauncher2" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/packages/amlogic/Miracast" path="vendor/amlogic/reference/apps/Miracast" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/packages/amlogic/NativeImagePlayer" path="vendor/amlogic/reference/apps/NativeImagePlayer" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/packages/amlogic/RemoteIME" path="vendor/amlogic/reference/apps/RemoteIME" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/packages/amlogic/TvInput" path="vendor/amlogic/reference/apps/TvInput" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" remote="gerrit" groups="pdk-fs"/>
   <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" remote="gerrit" groups="pdk-fs"/>
   <project name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="gerrit" groups="pdk-fs"/>
   <project name="platform/packages/apps/TV" path="packages/apps/TV" remote="gerrit" groups="pdk"/>
   <project name="platform/packages/apps/ThemePicker" path="packages/apps/ThemePicker" remote="gerrit" groups="pdk-fs"/>
-  <project name="platform/packages/apps/Updater" path="vendor/amlogic/reference/apps/Updater" remote="trunk" revision="8b67eaf094e6d65c81256f9cf93946df57df0724" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform/packages/apps/Updater" path="vendor/amlogic/reference/apps/Updater" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform/packages/modules/Bluetooth" path="packages/modules/Bluetooth" remote="gerrit" groups="pdk"/>
   <project name="platform/packages/modules/Connectivity" path="packages/modules/Connectivity" remote="gerrit" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack" remote="gerrit" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/modules/Wifi" path="packages/modules/Wifi" remote="gerrit" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider" remote="gerrit" groups="pdk-fs"/>
-  <project name="platform/prebuilts/bazel/linux-x86_64" path="common/common14-5.15/prebuilts/bazel/linux-x86_64" remote="ohd_pdk" revision="7bfbec9e829bbae6816d5f39aba345df76e627c1" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform/prebuilts/bazel/linux-x86_64" path="common/common14-5.15/prebuilts/bazel/linux-x86_64" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/prebuilts/build-tools" path="common/common14-5.15/prebuilts/build-tools" remote="ohd_pdk" />
   <project name="platform/prebuilts/clang-tools" path="common/common14-5.15/prebuilts/clang-tools" remote="ohd_pdk" />
   <project name="platform/prebuilts/clang/host/linux-x86" path="common/common14-5.15/prebuilts/clang/host/linux-x86" remote="ohd_pdk" />
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="common/common14-5.15/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="ohd_pdk" revision="f6d40532273c8bd628b960ecc0970c7294c8d891" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
-  <project name="platform/prebuilts/jdk/jdk11" path="common/common14-5.15/prebuilts/jdk/jdk11" remote="ohd_pdk" revision="649eec4416e2ed6298af49a56876772767a0e5ae" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="common/common14-5.15/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform/prebuilts/jdk/jdk11" path="common/common14-5.15/prebuilts/jdk/jdk11" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/system/bpf" path="system/bpf" remote="gerrit" groups="pdk"/>
   <project name="platform/system/security" path="system/security" remote="gerrit" groups="pdk"/>
   <project name="platform/system/sepolicy" path="system/sepolicy" remote="gerrit" groups="pdk"/>
   <project name="platform/system/tools/mkbootimg" path="common/common14-5.15/tools/mkbootimg" remote="ohd_pdk" />
   <project name="platform/system/vold" path="system/vold" remote="gerrit" groups="pdk"/>
-  <project name="platform/vendor/amlogic/common" path="vendor/amlogic/common" remote="trunk" revision="refs/heads/u-amlogic" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
+  <project name="platform/vendor/amlogic/common" path="vendor/amlogic/common" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
     <linkfile src=".ref_android_bp" dest="vendor/amlogic/reference/Android.bp"/>
     <linkfile src=".ref_android_mk" dest="vendor/amlogic/reference/Android.mk"/>
   </project>
-  <project name="toolchain/prebuilts/ndk/r23" path="common/common14-5.15/prebuilts/ndk-r23" remote="ohd_pdk" revision="19ac7e4eded12adb99d4f613490dde6dd0e72664" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
-  <project name="vendor/amlogic/ASPlayer" path="vendor/amlogic/common/ASPlayer" remote="trunk" revision="60008b79aa9cb5a6bfa0d7318f14ea996b5a0031" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/AmStreamingInputService" path="vendor/amlogic/reference/apps/AmStreamingInputService" remote="trunk" revision="b2856a6922981035b2ed80bda8d5c1453481247c" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/JDvrLib" path="vendor/amlogic/reference/apps/JDvrLib" remote="trunk" revision="9700c348df26ac8d3b7728cd5cfa6e0125397516" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/codec2" path="vendor/amlogic/common/codec2" remote="trunk" revision="acee7f5994b89d0db8bac94e3347a1a94802a316" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/common/aml_mp_sdk" path="vendor/amlogic/reference/aml_mp_sdk" remote="trunk" revision="77aaf43a011e571d2fffdd3c7f486677e71a1da2" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/common/apps/LauncherCustomization" path="vendor/amlogic/reference/apps/LauncherCustomization" remote="trunk" revision="985e7f0faa97c8638e0674cafdf8a8c03278cb40" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/dsp_util" path="vendor/amlogic/common/dsp/dsp_util" remote="trunk" revision="66225d9a7294f79c38c2d4c87d70332745b6f405" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/efuse" path="vendor/amlogic/common/efuse" remote="trunk" revision="924789214a5ac99a662586ef08734025fbc30bf6" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="toolchain/prebuilts/ndk/r23" path="common/common14-5.15/prebuilts/ndk-r23" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="vendor/amlogic/ASPlayer" path="vendor/amlogic/common/ASPlayer" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/AmStreamingInputService" path="vendor/amlogic/reference/apps/AmStreamingInputService" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/JDvrLib" path="vendor/amlogic/reference/apps/JDvrLib" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/attester" path="vendor/amlogic/common/attester" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/codec2" path="vendor/amlogic/common/codec2" remote="trunk"  upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/common/aml_mp_sdk" path="vendor/amlogic/reference/aml_mp_sdk" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/common/apps/LauncherCustomization" path="vendor/amlogic/reference/apps/LauncherCustomization" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/dsp_util" path="vendor/amlogic/common/dsp/dsp_util" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/efuse" path="vendor/amlogic/common/efuse" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/frameworks/av" path="vendor/amlogic/common/frameworks/av" remote="trunk" revision="refs/heads/u-amlogic" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/hdcp" path="vendor/amlogic/common/hdcp" remote="trunk" revision="a1f5cd47f76af1a1d462dcc5eea87b7fe9a82435" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/libdsm" path="vendor/amlogic/common/libdsm" remote="trunk" revision="9d8d5a1c9b326950891af2fd81e0b26bab470d51" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/hdcp" path="vendor/amlogic/common/hdcp" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/libdsm" path="vendor/amlogic/common/libdsm" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/livetv" path="vendor/amlogic/reference/prebuilt/livetv" remote="trunk" revision="refs/heads/u-amlogic" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/mediahal_sdk" path="vendor/amlogic/common/mediahal_sdk" remote="trunk" revision="2d8cb915a26ac4b469acf3824688b628dc7575f2" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/prebuilt" path="vendor/amlogic/reference/prebuilt" remote="trunk" revision="5595a1de2b99504d28faceea439aaac2e1d6c8ed" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/prebuilt/libmedia" path="vendor/amlogic/common/prebuilt/libmedia" remote="trunk" revision="7ee3c1d8885fb023c573a768061d3e43eef97d95" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/prebuilt/libmediadrm" path="vendor/amlogic/common/prebuilt/libmediadrm" remote="trunk" revision="803e6492a09a5fae64fc0d357765891bcf728c32" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/prebuilt/tuner" path="vendor/amlogic/reference/prebuilt/kernel-modules/tuner" remote="trunk" revision="e957115df3fd0f0a8595b6b064f4430992ae77ab" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/provision" path="vendor/amlogic/common/provision" remote="trunk" revision="7a4dcb0d5a9e1bebd6f3de9d3edfd80254fb75d0" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/mediahal_sdk" path="vendor/amlogic/common/mediahal_sdk" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/prebuilt" path="vendor/amlogic/reference/prebuilt" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/prebuilt/libmedia" path="vendor/amlogic/common/prebuilt/libmedia" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/prebuilt/libmediadrm" path="vendor/amlogic/common/prebuilt/libmediadrm" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/prebuilt/tuner" path="vendor/amlogic/reference/prebuilt/kernel-modules/tuner" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/provision" path="vendor/amlogic/common/provision" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/ross" remote="trunk" revision="refs/heads/u-amlogic" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/subtitle" path="vendor/amlogic/reference/subtitle" remote="trunk" revision="e11629d5096f96e173962153addff085f77b8897" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/system/libgdc" path="vendor/amlogic/common/system/libgdc" remote="trunk" revision="173e27e43a35b03d30eabc0ff6f0110c8203ccd9" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/tdk_basic" path="vendor/amlogic/common/tdk" remote="trunk" revision="1f3e3a07f705ca089449de5442d33092094f20ae" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/tdk_basic" path="vendor/amlogic/common/tdk/v3.8.0" remote="trunk" revision="5a533c07eef0bb8e2ca9cfb4832278a722c1cc30" upstream="refs/heads/openlinux/ott/u-amlogic-v3" dest-branch="refs/heads/openlinux/ott/u-amlogic-v3"/>
-  <project name="vendor/amlogic/tdk_basic" path="vendor/amlogic/common/tdk/v3.18.0" remote="trunk" revision="3ffb9089662a45b4ead2e767476adceace18534c" upstream="refs/heads/openlinux/ott/u-amlogic-v3.18" dest-branch="refs/heads/openlinux/ott/u-amlogic-v3.18"/>
-  <project name="vendor/amlogic/tdk_linuxdriver" path="common/driver_modules/tdk_linuxdriver" remote="trunk" revision="470cf670b76e62c9ac52abde29c6a9edee9a0813" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
+  <project name="vendor/amlogic/subtitle" path="vendor/amlogic/reference/subtitle" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/system/libgdc" path="vendor/amlogic/common/system/libgdc" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/tdk_basic" path="vendor/amlogic/common/tdk" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/tdk_basic" path="vendor/amlogic/common/tdk/v3.8.0" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic-v3" dest-branch="refs/heads/openlinux/ott/u-amlogic-v3"/>
+  <project name="vendor/amlogic/tdk_basic" path="vendor/amlogic/common/tdk/v3.18.0" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic-v3.18" dest-branch="refs/heads/openlinux/ott/u-amlogic-v3.18"/>
+  <project name="vendor/amlogic/tdk_linuxdriver" path="common/driver_modules/tdk_linuxdriver" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
     <linkfile src="." dest="common/common14-5.15/driver_modules/tdk_linuxdriver"/>
   </project>
-  <project name="vendor/amlogic/tv" path="vendor/amlogic/reference/tv" remote="trunk" revision="9fd60bb3d27416faf9a9fb72768b368aff14a5b9" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/tvserver" path="vendor/amlogic/reference/tv/tvserver" remote="trunk" revision="41c2c751010d9d7f08b51667a4e37404cdf4444f" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/tv" path="vendor/amlogic/reference/tv" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="vendor/amlogic/tvserver" path="vendor/amlogic/reference/tv/tvserver" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/wifi" path="common/driver_modules/wifi_bt/wifi" remote="trunk" >
     <linkfile src="." dest="common/common14-5.15/driver_modules/wifi_bt/wifi"/>
   </project>
-  <project name="vendor/bluetooth/drivers" path="common/driver_modules/wifi_bt/bt" remote="trunk" revision="9052546880eb7021ee7a61a29a36eb3557f6d887" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
+  <project name="vendor/bluetooth/drivers" path="common/driver_modules/wifi_bt/bt" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
     <linkfile src="." dest="common/common14-5.15/driver_modules/wifi_bt/bt"/>
   </project>
-  <project name="vendor/external/freetype" path="vendor/amlogic/reference/external/freetype" remote="trunk" revision="fda70e7423beb6b3c67cae2fc4e9d7a0243e52bf" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/widevine" remote="trunk" revision="8e75df7d2f5a85e8bca3fed17efc5676ca347c90" upstream="refs/heads/u-amlogic" dest-branch="refs/heads/u-amlogic"/>
+  <project name="vendor/external/freetype" path="vendor/amlogic/reference/external/freetype" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
 </manifest>
