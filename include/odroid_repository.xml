@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="people/tobetter/github/u-boot" path="u-boot" revision="odroidc5-v2023.01" remote="origin" />
+  <project name="people/tobetter/github/u-boot" path="u-boot" revision="odroidc5-v2023.01_yocto-kirkstone-bsp-202501" remote="origin" sync-s="true" />
   <project name="android_device_hardkernel_common" path="device/hardkernel/common" remote="origin" >
     <copyfile src="vf/vendor_freeze_build.sh" dest="vendor_freeze_build.sh"/>
     <copyfile src="compile_env.sh" dest="compile_env.sh"/>
