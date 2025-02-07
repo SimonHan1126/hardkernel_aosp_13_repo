@@ -156,8 +156,7 @@
   <project name="vendor/amlogic/subtitle" path="vendor/amlogic/reference/subtitle" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/system/libgdc" path="vendor/amlogic/common/system/libgdc" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor/amlogic/tdk_basic" path="vendor/amlogic/common/tdk" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor/amlogic/tdk_basic" path="vendor/amlogic/common/tdk/v3.8.0" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic-v3" dest-branch="refs/heads/openlinux/ott/u-amlogic-v3"/>
-  <project name="vendor/amlogic/tdk_basic" path="vendor/amlogic/common/tdk/v3.18.0" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic-v3.18" dest-branch="refs/heads/openlinux/ott/u-amlogic-v3.18"/>
+  <project name="vendor/amlogic/tdk_basic" path="vendor/amlogic/common/tdk/v3.18.0" remote="trunk" revision="refs/heads/openlinux/ott/u-amlogic-v3.18" />
   <project name="vendor/amlogic/tdk_linuxdriver" path="common/driver_modules/tdk_linuxdriver" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
     <linkfile src="." dest="common/common14-5.15/driver_modules/tdk_linuxdriver"/>
   </project>
