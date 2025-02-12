@@ -9,7 +9,6 @@
   <project name="DTVKit/dtvkit-amlogic" path="vendor/amlogic/reference/external/DTVKit/dtvkit-amlogic" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="DTVKit/releaseDTVKit" path="vendor/amlogic/reference/external/DTVKit/releaseDTVKit" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="cas/cas-hal" path="vendor/amlogic/reference/external/DTVKit/cas_hal" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="device/google/atv" remote="gerrit" groups="device,broadcom_pdk,generic_fs,pdk"/>
   <project name="device/google/cuttlefish" groups="device,pdk" upstream="u-tv-keystone-ref-release" remote="gerrit" />
   <project name="dvb" path="vendor/amlogic/reference/external/dvb" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="kernel/build" path="common/common14-5.15/build/kernel" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u">

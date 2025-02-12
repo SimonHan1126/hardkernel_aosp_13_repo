@@ -4,7 +4,6 @@
     <remove-project name="platform/bootable/recovery" />
     <remove-project name="platform/build"/>
     <remove-project name="platform/development"/>
-    <remove-project name="device/google/atv"/>
     <remove-project name="device/google/cuttlefish"/>
     <remove-project name="platform/external/aac"/>
     <remove-project name="platform/external/erofs-utils"/>
