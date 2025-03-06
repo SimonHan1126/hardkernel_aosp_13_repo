@@ -35,7 +35,6 @@
   <project name="linux/amlogic/meson_display" path="hardware/amlogic/hwcomposer/mesondisplay" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="linux/amlogic/meson_mali" path="vendor/amlogic/common/gpu-lib" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform/amlogic/external/libzvbi_src" path="vendor/amlogic/reference/external/libzvbi_src" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/bootable/recovery" path="bootable/recovery" remote="gerrit" groups="pdk"/>
   <project name="platform/build/bazel_common_rules" path="common/common14-5.15/build/bazel_common_rules" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/development" path="development" remote="gerrit" groups="developers,pdk-cw-fs,pdk-fs"/>
   <project name="platform/external/aac" path="external/aac" remote="gerrit" groups="pdk"/>

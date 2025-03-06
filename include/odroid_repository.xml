@@ -2,6 +2,7 @@
 <manifest>
   <include name="include/uboot.xml" />
 
+  <project name="android_bootable_recovery" path="bootable/recovery" remote="origin" groups="pdk"/>
   <project name="android_device_hardkernel_common" path="device/hardkernel/common" remote="origin" >
     <copyfile src="vf/vendor_freeze_build.sh" dest="vendor_freeze_build.sh"/>
     <copyfile src="compile_env.sh" dest="compile_env.sh"/>
