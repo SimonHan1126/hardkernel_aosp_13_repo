@@ -32,8 +32,11 @@
   <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="origin" />
   <project name="android_frameworks_base" path="frameworks/base" remote="origin" groups="pdk-cw-fs,pdk-fs"/>
   <project name="android_frameworks_native" path="frameworks/native" remote="origin" groups="pdk-cw-fs,pdk-fs"/>
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="origin" groups="pdk"/>
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" />
+  <project path="hardware/hardkernel/odroidThings" name="android_hardware_hardkernel_odroidThings" remote="origin" revision="refs/heads/master" />
+  <project path="hardware/hardkernel/odroidThings/ring_buffer" name="android_hardware_hardkernel_odroidThings_ring_buffer" remote="origin" revision="refs/heads/master" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="origin" groups="pdk"/>
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="origin" groups="pdk"/>
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="origin" />
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="origin" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="origin" groups="pdk-fs"/>
@@ -45,4 +48,7 @@
   </project>
   <project path="vendor/amlogic/common/frameworks/av" name="android_vendor_amlogic_frameworks_av" remote="origin" />
   <project path="vendor/amlogic/ross" name="android_vendor_amlogic_ross" remote="origin" />
+  <project path="vendor/hardkernel/external/wiringPi" name="wiringPi" remote="origin" revision="refs/heads/master" />
+  <project path="vendor/hardkernel/framework/things" name="android_vendor_hardkernel_things" remote="origin" revision="refs/heads/14.0.0_master" />
+  <project path="vendor/hardkernel/interfaces" name="android_vendor_hardkernel_interfaces" remote="origin" revision="14.0.0_master" />
 </manifest>

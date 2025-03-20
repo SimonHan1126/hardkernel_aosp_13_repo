@@ -76,7 +76,6 @@
   <project name="platform/hardware/arm/isp" path="common/driver_modules/camera" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
     <linkfile src="." dest="common/common14-5.15/driver_modules/camera"/>
   </project>
-  <project name="platform/hardware/libhardware" path="hardware/libhardware" remote="gerrit" groups="pdk"/>
   <project name="platform/hardware/verisilicon/npu" path="vendor/amlogic/common/npu" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform/hardware/wifi/amlogic/drivers/w1" path="common/driver_modules/wifi_bt/wifi/amlogic/w1/wifi" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform/hardware/wifi/amlogic/drivers/w1u" path="common/driver_modules/wifi_bt/wifi/amlogic/w1u" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
