@@ -48,6 +48,8 @@
   </project>
   <project path="vendor/amlogic/common/frameworks/av" name="android_vendor_amlogic_frameworks_av" remote="origin" />
   <project path="vendor/amlogic/ross" name="android_vendor_amlogic_ross" remote="origin" />
+  <project path="vendor/hardkernel/external/boblight" name="android_vendor_hardkernel_external_boblight" remote="origin" revision="refs/heads/master" />
+  <project path="vendor/hardkernel/external/can-utils" name="android_vendor_hardkernel_external_can_utils" remote="origin" revision="refs/heads/master" />
   <project path="vendor/hardkernel/external/wiringPi" name="wiringPi" remote="origin" revision="refs/heads/master" />
   <project path="vendor/hardkernel/framework/things" name="android_vendor_hardkernel_things" remote="origin" revision="refs/heads/14.0.0_master" />
   <project path="vendor/hardkernel/interfaces" name="android_vendor_hardkernel_interfaces" remote="origin" revision="14.0.0_master" />
