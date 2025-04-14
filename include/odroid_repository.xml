@@ -40,6 +40,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="origin" />
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="origin" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="origin" groups="pdk-fs"/>
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="origin" groups="pdk-fs"/>
   <project path="packages/apps/Updater" name="android_packages_apps_odroid_updater" remote="origin" />
   <project path="system/core" name="android_system_core" remote="origin" />
   <project path="vendor/amlogic/common" name="android_vendor_amlogic_common" remote="origin" >
