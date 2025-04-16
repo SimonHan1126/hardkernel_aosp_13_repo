@@ -43,6 +43,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="origin" groups="pdk-fs"/>
   <project path="packages/apps/Updater" name="android_packages_apps_odroid_updater" remote="origin" />
   <project path="system/core" name="android_system_core" remote="origin" />
+  <project name="android_system_update_engine" path="system/update_engine" groups="pdk" remote="origin" />
   <project path="vendor/amlogic/common" name="android_vendor_amlogic_common" remote="origin" >
     <linkfile src=".ref_android_bp" dest="vendor/amlogic/reference/Android.bp"/>
     <linkfile src=".ref_android_mk" dest="vendor/amlogic/reference/Android.mk"/>
