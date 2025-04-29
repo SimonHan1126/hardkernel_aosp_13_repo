@@ -6,16 +6,10 @@
 
   <remote name="origin"
           revision="refs/heads/s905x5m_14.0.0_master"
-          fetch="../../.." />
+          fetch="https://github.com/codewalkerster/" />
 
   <remote name="amlogic"
           fetch="https://github.com/codewalkerster/" />
-
-  <remote name="gitlab"
-          fetch="https://gitlab.com/hardkernel/" />
-
-  <remote name="gitlab_gms"
-          fetch="https://gitlab.com/" />
 
   <remote name="ohd_pdk"
           fetch="../../u-amlogic/" 
