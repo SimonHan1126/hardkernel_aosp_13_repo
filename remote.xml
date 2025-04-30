@@ -16,7 +16,7 @@
           revision="refs/heads/amlogic-5.15-dev-u" />
 
   <remote name="trunk"
-          fetch="../../u-amlogic/" 
+          fetch="https://github.com/codewalkerster/"
           revision="refs/heads/openlinux/ott/u-amlogic" />
 
   <remote name="gerrit"
