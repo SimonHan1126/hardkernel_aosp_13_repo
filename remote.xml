@@ -8,9 +8,6 @@
           revision="refs/heads/s905x5m_14.0.0_master"
           fetch="https://github.com/codewalkerster/" />
 
-  <remote name="amlogic"
-          fetch="https://github.com/codewalkerster/" />
-
   <remote name="ohd_pdk"
           fetch="https://github.com/codewalkerster/"
           revision="refs/heads/amlogic-5.15-dev-u" />
@@ -19,6 +16,7 @@
           fetch="https://github.com/codewalkerster/"
           revision="refs/heads/openlinux/ott/u-amlogic" />
 
-  <remote name="gerrit"
-          fetch="../../u-amlogic/" revision="refs/heads/u-amlogic" review="git.linuxfactory.or.kr:29418/u-amlogic/"/>
+  <remote name="amlogic"
+          fetch="https://github.com/codewalkerster/"
+          revision="refs/heads/u-amlogic" />
 </manifest>
