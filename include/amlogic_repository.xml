@@ -11,7 +11,7 @@
   <project name="cas_cas-hal" path="vendor/amlogic/reference/external/DTVKit/cas_hal" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="device/google/cuttlefish" groups="device,pdk" upstream="u-tv-keystone-ref-release" remote="gerrit" />
   <project name="dvb" path="vendor/amlogic/reference/external/dvb" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="kernel/build" path="common/common14-5.15/build/kernel" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u">
+  <project name="kernel_build" path="common/common14-5.15/build/kernel" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u">
     <linkfile src="kleaf/bazel.sh" dest="common/common14-5.15/tools/bazel"/>
     <linkfile src="kleaf/bazel.WORKSPACE" dest="common/common14-5.15/WORKSPACE"/>
     <linkfile src="build.sh" dest="common/common14-5.15/build/build.sh"/>
@@ -25,20 +25,20 @@
     <linkfile src="abi" dest="common/common14-5.15/build/abi"/>
     <linkfile src="static_analysis" dest="common/common14-5.15/build/static_analysis"/>
   </project>
-  <project name="kernel/common-modules/virtual-device" path="common/common14-5.15/common-modules/virtual-device" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
-  <project name="kernel/configs" path="common/common14-5.15/kernel/configs" remote="ohd_pdk" />
-  <project name="kernel/prebuilts/build-tools" path="common/common14-5.15/prebuilts/kernel-build-tools" remote="ohd_pdk" />
-  <project name="kernel/tests" path="common/common14-5.15/kernel/tests" remote="ohd_pdk" />
+  <project name="kernel_common-modules_virtual-device" path="common/common14-5.15/common-modules/virtual-device" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="kernel_configs" path="common/common14-5.15/kernel/configs" remote="ohd_pdk" />
+  <project name="kernel_prebuilts_build-tools" path="common/common14-5.15/prebuilts/kernel-build-tools" remote="ohd_pdk" />
+  <project name="kernel_tests" path="common/common14-5.15/kernel/tests" remote="ohd_pdk" />
   <project name="libdmxresconf" path="vendor/amlogic/reference/libdmxresconf" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="libdvr" path="vendor/amlogic/reference/libdvr" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="libsecdmx_release" path="vendor/amlogic/reference/libsecdmx_release" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="linux_amlogic_meson_display" path="hardware/amlogic/hwcomposer/mesondisplay" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="linux_amlogic_meson_mali" path="vendor/amlogic/common/gpu-lib" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_amlogic_external_libzvbi_src" path="vendor/amlogic/reference/external/libzvbi_src" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/build/bazel_common_rules" path="common/common14-5.15/build/bazel_common_rules" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform_build_bazel_common_rules" path="common/common14-5.15/build/bazel_common_rules" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/development" path="development" remote="gerrit" groups="developers,pdk-cw-fs,pdk-fs"/>
   <project name="platform/external/aac" path="external/aac" remote="gerrit" groups="pdk"/>
-  <project name="platform/external/bazel-skylib" path="common/common14-5.15/external/bazel-skylib" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform_external_bazel-skylib" path="common/common14-5.15/external/bazel-skylib" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/external/erofs-utils" path="external/erofs-utils" remote="gerrit" groups="pdk"/>
   <project name="platform_external_ffmpeg-aml" path="vendor/amlogic/common/external/ffmpeg" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform/external/gptfdisk" path="external/gptfdisk" remote="gerrit" groups="pdk"/>
@@ -47,8 +47,8 @@
   <project name="platform/external/libvpx" path="external/libvpx" remote="gerrit" groups="pdk"/>
   <project name="platform/external/libwebsockets" path="external/libwebsockets" remote="gerrit" groups="pdk"/>
   <project name="platform_external_ntfs-3g" path="vendor/amlogic/common/external/ntfs-3g" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform/external/python/absl-py" path="common/common14-5.15/external/python/absl-py" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
-  <project name="platform/external/stardoc" path="common/common14-5.15/external/stardoc" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform_external_python_absl-py" path="common/common14-5.15/external/python/absl-py" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform_external_stardoc" path="common/common14-5.15/external/stardoc" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/frameworks/av" path="frameworks/av" remote="gerrit" groups="pdk"/>
   <project name="platform/frameworks/proto_logging" path="frameworks/proto_logging" remote="gerrit" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_hardware_amlogic" path="hardware/amlogic" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
@@ -119,18 +119,18 @@
   <project name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack" remote="gerrit" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/modules/Wifi" path="packages/modules/Wifi" remote="gerrit" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider" remote="gerrit" groups="pdk-fs"/>
-  <project name="platform/prebuilts/bazel/linux-x86_64" path="common/common14-5.15/prebuilts/bazel/linux-x86_64" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
-  <project name="platform/prebuilts/build-tools" path="common/common14-5.15/prebuilts/build-tools" remote="ohd_pdk" />
-  <project name="platform/prebuilts/clang-tools" path="common/common14-5.15/prebuilts/clang-tools" remote="ohd_pdk" />
-  <project name="platform/prebuilts/clang/host/linux-x86" path="common/common14-5.15/prebuilts/clang/host/linux-x86" remote="ohd_pdk" />
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="common/common14-5.15/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
-  <project name="platform/prebuilts/jdk/jdk11" path="common/common14-5.15/prebuilts/jdk/jdk11" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform_prebuilts_bazel_linux-x86_64" path="common/common14-5.15/prebuilts/bazel/linux-x86_64" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform_prebuilts_build-tools" path="common/common14-5.15/prebuilts/build-tools" remote="ohd_pdk" />
+  <project name="platform_prebuilts_clang-tools" path="common/common14-5.15/prebuilts/clang-tools" remote="ohd_pdk" />
+  <project name="platform_prebuilts_clang_host_linux-x86" path="common/common14-5.15/prebuilts/clang/host/linux-x86" remote="ohd_pdk" />
+  <project name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" path="common/common14-5.15/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="platform_prebuilts_jdk_jdk11" path="common/common14-5.15/prebuilts/jdk/jdk11" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform/system/bpf" path="system/bpf" remote="gerrit" groups="pdk"/>
   <project name="platform/system/security" path="system/security" remote="gerrit" groups="pdk"/>
   <project name="platform/system/sepolicy" path="system/sepolicy" remote="gerrit" groups="pdk"/>
-  <project name="platform/system/tools/mkbootimg" path="common/common14-5.15/tools/mkbootimg" remote="ohd_pdk" />
+  <project name="platform_system_tools_mkbootimg" path="common/common14-5.15/tools/mkbootimg" remote="ohd_pdk" />
   <project name="platform/system/vold" path="system/vold" remote="gerrit" groups="pdk"/>
-  <project name="toolchain/prebuilts/ndk/r23" path="common/common14-5.15/prebuilts/ndk-r23" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="toolchain_prebuilts_ndk_r23" path="common/common14-5.15/prebuilts/ndk-r23" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="vendor_amlogic_ASPlayer" path="vendor/amlogic/common/ASPlayer" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor_amlogic_AmStreamingInputService" path="vendor/amlogic/reference/apps/AmStreamingInputService" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor_amlogic_JDvrLib" path="vendor/amlogic/reference/apps/JDvrLib" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
