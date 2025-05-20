@@ -34,7 +34,7 @@
   <project name="linux_amlogic_meson_display" path="hardware/amlogic/hwcomposer/mesondisplay" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="linux_amlogic_meson_mali" path="vendor/amlogic/common/gpu-lib" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_amlogic_external_libzvbi_src" path="vendor/amlogic/reference/external/libzvbi_src" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="platform_build_bazel_common_rules" path="common/common14-5.15/build/bazel_common_rules" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="u-amlogic/platform/build/bazel_common_rules" path="common/common14-5.15/build/bazel_common_rules" remote="odroid" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform_development" path="development" remote="amlogic" groups="developers,pdk-cw-fs,pdk-fs"/>
   <project name="platform_external_aac" path="external/aac" remote="amlogic" groups="pdk"/>
   <project name="platform_external_bazel-skylib" path="common/common14-5.15/external/bazel-skylib" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
@@ -114,16 +114,16 @@
   <project name="platform_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="amlogic" groups="pdk-fs"/>
   <project name="platform_packages_apps_Updater" path="vendor/amlogic/reference/apps/Updater" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="amlogic" groups="pdk"/>
-  <project name="platform_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="amlogic" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="u-amlogic/platform/packages/modules/Connectivity" path="packages/modules/Connectivity" remote="odroid" revision="refs/heads/u-amlogic" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="amlogic" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_packages_modules_Wifi" path="packages/modules/Wifi" remote="amlogic" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_packages_providers_TvProvider" path="packages/providers/TvProvider" remote="amlogic" groups="pdk-fs"/>
   <project name="platform_prebuilts_bazel_linux-x86_64" path="common/common14-5.15/prebuilts/bazel/linux-x86_64" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
-  <project name="platform_prebuilts_build-tools" path="common/common14-5.15/prebuilts/build-tools" remote="ohd_pdk" />
-  <project name="platform_prebuilts_clang-tools" path="common/common14-5.15/prebuilts/clang-tools" remote="ohd_pdk" />
-  <project name="platform_prebuilts_clang_host_linux-x86" path="common/common14-5.15/prebuilts/clang/host/linux-x86" remote="ohd_pdk" />
+  <project name="u-amlogic/platform/prebuilts/build-tools" path="common/common14-5.15/prebuilts/build-tools" remote="odroid" />
+  <project name="u-amlogic/platform/prebuilts/clang-tools" path="common/common14-5.15/prebuilts/clang-tools" remote="odroid" />
+  <project name="u-amlogic/platform/prebuilts/clang/host/linux-x86" path="common/common14-5.15/prebuilts/clang/host/linux-x86" remote="odroid" />
   <project name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" path="common/common14-5.15/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
-  <project name="platform_prebuilts_jdk_jdk11" path="common/common14-5.15/prebuilts/jdk/jdk11" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
+  <project name="u-amlogic/platform/prebuilts/jdk/jdk11" path="common/common14-5.15/prebuilts/jdk/jdk11" remote="odroid" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform_system_bpf" path="system/bpf" remote="amlogic" groups="pdk"/>
   <project name="platform_system_security" path="system/security" remote="amlogic" groups="pdk"/>
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="amlogic" groups="pdk"/>
@@ -143,7 +143,7 @@
   <project name="vendor_amlogic_libdsm" path="vendor/amlogic/common/libdsm" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor_amlogic_livetv" path="vendor/amlogic/reference/prebuilt/livetv" remote="trunk" revision="refs/heads/u-amlogic" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor_amlogic_mediahal_sdk" path="vendor/amlogic/common/mediahal_sdk" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor_amlogic_prebuilt" path="vendor/amlogic/reference/prebuilt" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="u-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/reference/prebuilt" remote="odroid" revision="refs/heads/openlinux/ott/u-amlogic" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor_amlogic_prebuilt_libmedia" path="vendor/amlogic/common/prebuilt/libmedia" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor_amlogic_prebuilt_libmediadrm" path="vendor/amlogic/common/prebuilt/libmediadrm" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor_amlogic_prebuilt_tuner" path="vendor/amlogic/reference/prebuilt/kernel-modules/tuner" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>

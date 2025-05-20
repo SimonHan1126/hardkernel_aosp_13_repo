@@ -19,4 +19,8 @@
   <remote name="amlogic"
           fetch="https://github.com/codewalkerster/"
           revision="refs/heads/u-amlogic" />
+
+  <remote name="odroid"
+          fetch="https://git.odroid.com/"
+          revision="refs/heads/amlogic-5.15-dev-u" />
 </manifest>
