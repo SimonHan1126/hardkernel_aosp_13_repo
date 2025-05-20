@@ -23,4 +23,9 @@
   <remote name="odroid"
           fetch="https://git.odroid.com/"
           revision="refs/heads/amlogic-5.15-dev-u" />
+
+  <remote name="uboot"
+          fetch="https://git.odroid.com/"
+          revision="refs/heads/odroidc5-v2023.01" />
+
 </manifest>

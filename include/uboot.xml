@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="u-boot/bl2/bin" name="yocto/firmware/bin/bl2" remote="origin" revision="yocto-kirkstone-sdk-202501" />
-  <project path="u-boot/bl30/bin" name="yocto/firmware/bin/bl30" remote="origin" revision="yocto-kirkstone-sdk-202501" />
-  <project path="u-boot/bl30/src_ao" name="yocto/firmware/aocpu" remote="origin" revision="yocto-kirkstone-sdk-202501" />
-  <project path="u-boot/bl31/bl31_2.7/bin" name="yocto/firmware/bin/bl31" remote="origin" revision="yocto-kirkstone-sdk-202501-bl31_2.7" />
-  <project path="u-boot/bl32/bl32_3.18/bin" name="yocto/firmware/bin/bl32" remote="origin" revision="yocto-kirkstone-sdk-202501-bl32_3.18" />
-  <project path="u-boot/bl33/v2023" name="yocto/uboot" remote="origin" revision="odroidc5-v2023.01_yocto-kirkstone-sdk-202501" />
-  <project path="u-boot/bl40/bin" name="yocto/firmware/bin/bl40/dummy" remote="origin" revision="yocto-kirkstone-sdk-202501" />
-  <project path="u-boot/fip" name="yocto/amlogic/tools/fip" remote="origin" revision="yocto-kirkstone-sdk-202501" >
+  <project path="u-boot/bl2/bin" name="yocto/firmware/bin/bl2" remote="uboot" />
+  <project path="u-boot/bl30/bin" name="yocto/firmware/bin/bl30" remote="uboot" />
+  <project path="u-boot/bl30/src_ao" name="yocto/firmware/aocpu" remote="uboot" />
+  <project path="u-boot/bl31/bl31_2.7/bin" name="yocto/firmware/bin/bl31" remote="uboot" />
+  <project path="u-boot/bl32/bl32_3.18/bin" name="yocto/firmware/bin/bl32" remote="uboot" />
+  <project path="u-boot/bl33/v2023" name="yocto/uboot" remote="uboot" />
+  <project path="u-boot/bl40/bin" name="yocto/firmware/bin/bl40/dummy" remote="uboot" />
+  <project path="u-boot/fip" name="yocto/amlogic/tools/fip" remote="uboot" >
   <copyfile src="mk" dest="u-boot/mk"/>
   </project>
-  <project path="u-boot/soc/templates" name="yocto/firmware/bin/templates" remote="origin" revision="yocto-kirkstone-sdk-202501" />
+  <project path="u-boot/soc/templates" name="yocto/firmware/bin/templates" remote="uboot" />
 
-  <project path="u-boot/bl30/rtos_sdk/arch/riscv" name="yocto/rtos_sdk/arch/riscv" remote="origin" revision="yocto-kirkstone-sdk-202501" />
-  <project path="u-boot/bl30/rtos_sdk/boards/riscv" name="yocto/rtos_sdk/boards/riscv" remote="origin" revision="yocto-kirkstone-sdk-202501" />
-  <project path="u-boot/bl30/rtos_sdk/build_system" name="yocto/rtos_sdk/build" remote="origin" revision="yocto-kirkstone-sdk-202501" >
+  <project path="u-boot/bl30/rtos_sdk/arch/riscv" name="yocto/rtos_sdk/arch/riscv" remote="uboot" />
+  <project path="u-boot/bl30/rtos_sdk/boards/riscv" name="yocto/rtos_sdk/boards/riscv" remote="uboot" />
+  <project path="u-boot/bl30/rtos_sdk/build_system" name="yocto/rtos_sdk/build" remote="uboot" >
     <copyfile src="Makefile" dest="u-boot/bl30/rtos_sdk/Makefile"/>
   </project>
-  <project path="u-boot/bl30/rtos_sdk/drivers_aocpu" name="yocto/rtos_sdk/drivers_aocpu" remote="origin" revision="yocto-kirkstone-sdk-202501" />
-  <project path="u-boot/bl30/rtos_sdk/kernel/freertos" name="yocto/rtos_sdk/freertos" remote="origin" revision="yocto-kirkstone-sdk-202501" />
-  <project path="u-boot/bl30/rtos_sdk/lib/libc" name="yocto/rtos_sdk/libc" remote="origin" revision="yocto-kirkstone-sdk-202501" />
-  <project path="u-boot/bl30/rtos_sdk/products/aocpu" name="yocto/rtos_sdk/product/aocpu" remote="origin" revision="yocto-kirkstone-sdk-202501" />
-  <project path="u-boot/bl30/rtos_sdk/scripts" name="yocto/rtos_sdk/scripts" remote="origin" revision="yocto-kirkstone-sdk-202501" />
-  <project path="u-boot/bl30/rtos_sdk/soc/riscv" name="yocto/rtos_sdk/soc/riscv" remote="origin" revision="yocto-kirkstone-sdk-202501" />
+  <project path="u-boot/bl30/rtos_sdk/drivers_aocpu" name="yocto/rtos_sdk/drivers_aocpu" remote="uboot" />
+  <project path="u-boot/bl30/rtos_sdk/kernel/freertos" name="yocto/rtos_sdk/freertos" remote="uboot" />
+  <project path="u-boot/bl30/rtos_sdk/lib/libc" name="yocto/rtos_sdk/libc" remote="uboot" />
+  <project path="u-boot/bl30/rtos_sdk/products/aocpu" name="yocto/rtos_sdk/product/aocpu" remote="uboot" />
+  <project path="u-boot/bl30/rtos_sdk/scripts" name="yocto/rtos_sdk/scripts" remote="uboot" />
+  <project path="u-boot/bl30/rtos_sdk/soc/riscv" name="yocto/rtos_sdk/soc/riscv" remote="uboot" />
 </manifest>
