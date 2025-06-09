@@ -50,7 +50,6 @@
   <project name="platform_external_stardoc" path="common/common14-5.15/external/stardoc" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="amlogic" groups="pdk"/>
   <project name="platform_frameworks_proto_logging" path="frameworks/proto_logging" remote="amlogic" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="platform_hardware_amlogic" path="hardware/amlogic" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_hardware_amlogic_adla" path="vendor/amlogic/common/adla_lib" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_hardware_amlogic_adla_driver" path="common/driver_modules/adla/driver" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
     <linkfile src="." dest="common/common14-5.15/driver_modules/adla/driver"/>
