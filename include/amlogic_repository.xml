@@ -39,16 +39,21 @@
   <project name="platform_external_aac" path="external/aac" remote="amlogic" groups="pdk"/>
   <project name="platform_external_bazel-skylib" path="common/common14-5.15/external/bazel-skylib" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform_external_erofs-utils" path="external/erofs-utils" remote="amlogic" groups="pdk"/>
+  <project name="platform_external_dng_sdk" path="external/dng_sdk" remote="amlogic" groups="pdk"/>
   <project name="platform_external_ffmpeg-aml" path="vendor/amlogic/common/external/ffmpeg" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project name="platform_external_giflib" path="external/giflib" remote="amlogic" groups="pdk"/>
   <project name="platform_external_gptfdisk" path="external/gptfdisk" remote="amlogic" groups="pdk"/>
   <project name="platform_external_libaom" path="external/libaom" remote="amlogic" groups="pdk"/>
   <project name="platform_external_libcxx" path="external/libcxx" remote="amlogic" groups="pdk"/>
   <project name="platform_external_libvpx" path="external/libvpx" remote="amlogic" groups="pdk"/>
   <project name="platform_external_libwebsockets" path="external/libwebsockets" remote="amlogic" groups="pdk"/>
+  <project name="platform_external_skia" path="external/skia" remote="amlogic" />
   <project name="platform_external_ntfs-3g" path="vendor/amlogic/common/external/ntfs-3g" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_external_python_absl-py" path="common/common14-5.15/external/python/absl-py" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform_external_stardoc" path="common/common14-5.15/external/stardoc" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="amlogic" groups="pdk"/>
+  <project name="platform_frameworks_libs_modules-utils" path="frameworks/libs/modules-utils" remote="amlogic" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="platform_frameworks_libs_net" path="frameworks/libs/net" remote="amlogic" groups="pdk-cw-fs,pdk-fs" />
   <project name="platform_frameworks_proto_logging" path="frameworks/proto_logging" remote="amlogic" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_hardware_amlogic_adla" path="vendor/amlogic/common/adla_lib" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_hardware_amlogic_adla_driver" path="common/driver_modules/adla/driver" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic">
@@ -97,6 +102,7 @@
   <project name="platform_hardware_wifi_realtek_drivers_8852be" path="common/driver_modules/wifi_bt/wifi/realtek/8852be" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_hardware_wifi_realtek_drivers_8852bs" path="common/driver_modules/wifi_bt/wifi/realtek/8852bs" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_hardware_wifi_unisoc_drivers_uwe5621" path="common/driver_modules/wifi_bt/wifi/unisoc/uwe5621" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project path="libcore" name="platform_libcore" remote="amlogic" groups="pdk" />
   <project name="platform_packages_amlogic_AppInstaller" path="vendor/amlogic/reference/apps/AppInstaller" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_packages_amlogic_DLNA" path="vendor/amlogic/reference/apps/DLNA" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_packages_amlogic_DroidTvExtras" path="vendor/amlogic/reference/apps/DroidTvExtras" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
@@ -107,6 +113,7 @@
   <project name="platform_packages_amlogic_NativeImagePlayer" path="vendor/amlogic/reference/apps/NativeImagePlayer" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_packages_amlogic_RemoteIME" path="vendor/amlogic/reference/apps/RemoteIME" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_packages_amlogic_TvInput" path="vendor/amlogic/reference/apps/TvInput" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="amlogic" groups="pdk-cw-fs,pdk-fs" />
   <project name="platform_packages_apps_Camera2" path="packages/apps/Camera2" remote="amlogic" groups="pdk-fs"/>
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="amlogic" groups="pdk-fs"/>
   <project name="platform_packages_apps_TV" path="packages/apps/TV" remote="amlogic" groups="pdk"/>
@@ -114,9 +121,18 @@
   <project name="platform_packages_apps_Updater" path="vendor/amlogic/reference/apps/Updater" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="platform_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="amlogic" groups="pdk"/>
   <project name="u-amlogic/platform/packages/modules/Connectivity" path="packages/modules/Connectivity" remote="odroid" revision="refs/heads/u-amlogic" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="plaform_packages_modules_HealthFitness" path="packages/modules/HealthFitness" remote="amlogic" groups="pdk-fs" />
+  <project name="platform_packages_modules_IntentResolver" path="packages/modules/IntentResolver" remote="amlogic" groups="pdk" />
   <project name="platform_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="amlogic" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="platform_packages_modules_Permission" path="packages/modules/Permission" remote="amlogic" groups="pdk-cw-fs,pdk-fs" />
+  <project name="platform_packages_modules_RemoteKeyProvisioning" path="packages/modules/RemoteKeyProvisioning" remote="amlogic" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="platform_packages_modules_StatsD" path="packages/modules/StatsD" remote="amlogic" groups="pdk-cw-fs,pdk-fs" />
   <project name="platform_packages_modules_Wifi" path="packages/modules/Wifi" remote="amlogic" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="amlogic" groups="pdk-cw-fs,pdk-fs" />
+  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="amlogic" groups="pdk-cw-fs,pdk-fs" />
   <project name="platform_packages_providers_TvProvider" path="packages/providers/TvProvider" remote="amlogic" groups="pdk-fs"/>
+  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="amlogic" groups="pdk-cw-fs,pdk-fs" />
+  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="amlogic" groups="pdk-cw-fs,pdk-fs" />
   <project name="platform_prebuilts_bazel_linux-x86_64" path="common/common14-5.15/prebuilts/bazel/linux-x86_64" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="u-amlogic/platform/prebuilts/build-tools" path="common/common14-5.15/prebuilts/build-tools" remote="odroid" />
   <project name="u-amlogic/platform/prebuilts/clang-tools" path="common/common14-5.15/prebuilts/clang-tools" remote="odroid" />
@@ -124,6 +140,10 @@
   <project name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" path="common/common14-5.15/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="ohd_pdk" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="u-amlogic/platform/prebuilts/jdk/jdk11" path="common/common14-5.15/prebuilts/jdk/jdk11" remote="odroid" upstream="amlogic-5.15-dev-u" dest-branch="amlogic-5.15-dev-u"/>
   <project name="platform_system_bpf" path="system/bpf" remote="amlogic" groups="pdk"/>
+  <project name="platform_system_keymint" path="system/keymint" remote="amlogic" groups="pdk" />
+  <project name="platform_system_libfmq" path="system/libfmq" remote="amlogic" groups="pdk" />
+  <project name="platform_system_logging" path="system/logging" remote="amlogic" groups="pdk" />
+  <project name="platform_system_nfc" path="system/nfc" remote="amlogic" groups="pdk" />
   <project name="platform_system_security" path="system/security" remote="amlogic" groups="pdk"/>
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="amlogic" groups="pdk"/>
   <project name="platform_system_tools_mkbootimg" path="common/common14-5.15/tools/mkbootimg" remote="ohd_pdk" />
