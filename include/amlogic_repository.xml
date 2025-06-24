@@ -160,7 +160,6 @@
   <project name="vendor_amlogic_efuse" path="vendor/amlogic/common/efuse" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor_amlogic_hdcp" path="vendor/amlogic/common/hdcp" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor_amlogic_libdsm" path="vendor/amlogic/common/libdsm" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
-  <project name="vendor_amlogic_livetv" path="vendor/amlogic/reference/prebuilt/livetv" remote="trunk" revision="refs/heads/u-amlogic" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor_amlogic_mediahal_sdk" path="vendor/amlogic/common/mediahal_sdk" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="u-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/reference/prebuilt" remote="odroid" revision="refs/heads/openlinux/ott/u-amlogic" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>
   <project name="vendor_amlogic_prebuilt_libmedia" path="vendor/amlogic/common/prebuilt/libmedia" remote="trunk" upstream="refs/heads/openlinux/ott/u-amlogic" dest-branch="refs/heads/openlinux/ott/u-amlogic"/>

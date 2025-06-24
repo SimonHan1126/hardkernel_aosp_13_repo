@@ -51,6 +51,7 @@
   </project>
   <project path="vendor/amlogic/common/frameworks/av" name="android_vendor_amlogic_frameworks_av" remote="origin" />
   <project path="vendor/amlogic/ross" name="android_vendor_amlogic_ross" remote="origin" />
+  <project path="vendor/amlogic/reference/prebuilt/livetv" name="vendor_amlogic_livetv" remote="origin" />
   <project path="vendor/hardkernel/external/boblight" name="android_vendor_hardkernel_external_boblight" remote="origin" revision="refs/heads/master" />
   <project path="vendor/hardkernel/external/can-utils" name="android_vendor_hardkernel_external_can_utils" remote="origin" revision="refs/heads/master" />
   <project path="vendor/hardkernel/external/wiringPi" name="wiringPi" remote="origin" revision="refs/heads/master" />
