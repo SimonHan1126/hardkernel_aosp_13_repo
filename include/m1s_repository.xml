@@ -10,7 +10,7 @@
   </project>
   <project path="device/hardkernel/rk356x" name="aosp_device_hardkernel_rk356x" remote="m1s_custom" />
   <project path="frameworks/base" name="android_frameworks_base" remote="m1s_custom" />
-  <project path="kernel-5.10" name="linux" remote="hardm1s_customkernel" revision="m1s_custom_20250711" />
+  <project path="kernel-5.10" name="linux" remote="m1s_custom" revision="m1s_custom_20250711" />
   <project path="packages/apps/Launcher3" name="aosp_packages_apps_Launcher3" remote="m1s_custom" groups="pdk-fs"/>
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="m1s_custom" />
 </manifest>
