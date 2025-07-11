@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="android_device_hardkernel_common" />
+  <remove-project name="android_device_hardkernel_rk356x" />
+  <remove-project name="android_frameworks_base" />
+  <remove-project name="linux" />               <!-- kernel-5.10 -->
+  <remove-project name="android_packages_apps_Launcher3" />
+  <remove-project name="android_packages_apps_Settings" />
+</manifest>
