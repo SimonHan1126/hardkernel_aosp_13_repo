@@ -28,5 +28,5 @@
           fetch="https://gitlab.com/" />
 
   <remote name="m1s_custom"
-          fetch="ssh://git@github.com/SimonHan1126" />
+          fetch="https://github.com/SimonHan1126/" />
 </manifest>
