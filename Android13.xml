@@ -11,6 +11,6 @@
   <include name="include/rk_checkout_repository.xml" />
   <include name="include/rk_modules_repository.xml" />
   <include name="include/odroid_repository.xml" />
-  <include name="remove_before_custom.xml"/>
-  <include name="include/m1s_repository.xml" />
+  <!-- <include name="remove_before_custom.xml"/>
+  <include name="include/m1s_repository.xml" /> -->
 </manifest>
