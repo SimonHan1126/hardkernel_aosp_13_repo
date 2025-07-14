@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="m1s_custom" revision="rk35_13.0.0_master">
+  <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="m1s_custom" revision="m1s_custom_20250711">
       <copyfile src=".classpath" dest=".classpath"/>
       <copyfile src="mkimage.sh" dest="mkimage.sh"/>
       <copyfile src="javaenv.sh" dest="javaenv.sh"/>
@@ -8,9 +8,9 @@
       <copyfile src="mkimage_ab.sh" dest="mkimage_ab.sh"/>
       <copyfile src="build/rockchip/blank_file" dest="kernel-5.10/.find-ignore"/>
   </project>
-  <project path="device/hardkernel/rk356x" name="android_device_hardkernel_rk356x" remote="m1s_custom" revision="rk35_13.0.0_master"/>
-  <project path="frameworks/base" name="android_frameworks_base" remote="m1s_custom"  revision="rk35_13.0.0_master"/>
-  <project path="kernel-5.10" name="linux" remote="m1s_custom" revision="rk35_13.0.0_master" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="m1s_custom" groups="pdk-fs"  revision="rk35_13.0.0_master"/>
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="m1s_custom"  revision="rk35_13.0.0_master" />
+  <project path="device/hardkernel/rk356x" name="android_device_hardkernel_rk356x" remote="m1s_custom" revision="m1s_custom_20250711"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="m1s_custom"  revision="m1s_custom_20250711"/>
+  <project path="kernel-5.10" name="linux" remote="m1s_custom" revision="rm1s_custom_20250711" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="m1s_custom" groups="pdk-fs"  revision="m1s_custom_20250711"/>
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="m1s_custom"  revision="m1s_custom_20250711" />
 </manifest>
