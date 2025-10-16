@@ -29,4 +29,8 @@
 
   <remote name="m1s_custom"
           fetch="https://github.com/SimonHan1126/" />
+
+  <remote name="github"
+          fetch="https://github.com/tiann/"
+          review="github.com" />
 </manifest>

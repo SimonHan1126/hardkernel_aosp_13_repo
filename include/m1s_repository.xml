@@ -11,7 +11,19 @@
   <project path="device/hardkernel/rk356x" name="android_device_hardkernel_rk356x" remote="m1s_custom" revision="m1s_custom_20250711"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="m1s_custom"  revision="m1s_custom_20250711"/>
   <project path="kernel-5.10" name="linux" remote="m1s_custom" revision="m1s_custom_20250711" />
+  <project path="kernel-5.10/KernelSU" name="KernelSU" remote="github" revision="main" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="m1s_custom" groups="pdk-fs"  revision="m1s_custom_20250711"/>
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="m1s_custom"  revision="m1s_custom_20250711" />
   <project path="vendor/rockchip/common" name="android_vendor_rockchip_common" remote="m1s_custom"  revision="m1s_custom_20250711" />
+  
+  <project path="device/tepari/common" name="device_tepari_common" remote="m1s_custom"  revision="m1s_custom_20251015" />
+  <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="m1s_custom" revision="m1s_custom_20251016"/>
+  <project path="external/libubootenv" name="android_external_libubootenv" remote="m1s_custom" revision="m1s_custom_20251016"/>
+  <project path="hardware/ril" name="platform/hardware/ril" remote="m1s_custom" revision="m1s_custom_20251016"/>
+  <project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" remote="m1s_custom" revision="m1s_custom_20251016"/>
+  <project path="packages/modules/adb" name="platform/packages/modules/adb" remote="m1s_custom" revision="m1s_custom_20251016"/>
+  <project path="system/core" name="platform/system/core" remote="m1s_custom" revision="m1s_custom_20251016"/>
+  <project path="system/extras" name="platform/system/extras" remote="m1s_custom" revision="m1s_custom_20251016"/>
+  <project path="u-boot" name="u-boot" remote="m1s_custom" revision="m1s_custom_20251016"/>
+  <project path="u-boot/rkbin" name="rk3568_rkbin" remote="hardkernel" revision="refs/heads/odroidm1-v2017.09" />
 </manifest>
