@@ -20,7 +20,7 @@
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="m1s_custom" revision="m1s_custom_20251016"/>
   <project path="external/libubootenv" name="android_external_libubootenv" remote="m1s_custom" revision="m1s_custom_20251016"/>
   <project path="hardware/ril" name="platform/hardware/ril" remote="m1s_custom" revision="m1s_custom_20251016"/>
-  <remove-project name="platform/packages/modules/Wifi" />
+  <!-- <remove-project name="platform/packages/modules/Wifi" /> -->
   <project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" remote="m1s_custom" revision="m1s_custom_20251016"/>
   <project path="packages/modules/adb" name="platform/packages/modules/adb" remote="m1s_custom" revision="m1s_custom_20251016"/>
   <project path="system/core" name="platform/system/core" remote="m1s_custom" revision="m1s_custom_20251016"/>
