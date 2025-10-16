@@ -13,7 +13,7 @@
     <project name="android_frameworks_ex" path="frameworks/ex" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6"/>
     <project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6" groups="pdk"/>
     <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="rk" revision="refs/tags/android-13.0-mid-rkr6" />
-    <project name="android_packages_modules_Wifi" path="packages/modules/Wifi" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6" groups="pdk-cw-fs,pdk-fs"/>
+    <!-- <project name="android_packages_modules_Wifi" path="packages/modules/Wifi" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6" groups="pdk-cw-fs,pdk-fs"/> -->
     <project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6" groups="pdk-cw-fs,pdk-fs"/>
     <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6" groups="pdk"/>
     <project name="android_packages_apps_TV" path="packages/apps/TV" remote="rk_aosp" revision="refs/tags/android-13.0-mid-rkr6" groups="pdk"/>
