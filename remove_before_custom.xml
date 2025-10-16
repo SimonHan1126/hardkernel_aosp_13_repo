@@ -12,7 +12,6 @@
   <remove-project name="android_external_libubootenv" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/modules/adb" />
-  <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="u-boot" />
 </manifest>
