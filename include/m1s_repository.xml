@@ -30,5 +30,5 @@
   <project path="system/core" name="android_system_core" remote="m1s_custom" revision="m1s_custom_20251016"/>
   <project path="system/extras" name="android_system_extras" remote="m1s_custom" revision="m1s_custom_20251016"/>
   <project path="u-boot" name="u-boot" remote="m1s_custom" revision="m1s_custom_20251016"/>
-  <project path="u-boot/rkbin" name="rk3568_rkbin" remote="hardkernel" revision="refs/heads/odroidm1-v2017.09" />
+  <!-- <project path="u-boot/rkbin" name="rk3568_rkbin" remote="hardkernel" revision="refs/heads/odroidm1-v2017.09" /> -->
 </manifest>
